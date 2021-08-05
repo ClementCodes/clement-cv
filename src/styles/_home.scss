@@ -1,0 +1,136 @@
+
+*{
+    text-decoration: none;
+}
+
+body{
+background-color: rgba(172, 142, 129, 0.427);
+}
+
+
+.body{
+    display: grid;
+    height: 1200px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: (1fr,1fr,1fr,1fr,1fr,1fr,1fr);
+    grid-template-areas: 
+  "  navbar navbar  navbar header header header header header header header header header" 
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
+  "navbar navbar navbar scroll scroll scroll scroll scroll scroll scroll scroll scroll";
+}
+.header{
+    grid-area: header;
+   
+}
+.navbar{
+    color: turquoise;
+    grid-area: navbar;
+
+
+    img{
+
+        width: 300px;
+        height: 200px;
+    }
+    
+}
+.scroll-botton{
+    color: turquoise;
+    grid-area: scroll;
+}
+
+
+   
+    
+$color-3: #9b6b6b;
+$color-4: #4c6d7456;
+$black: #0c0c0c;
+
+
+.navigation {
+ 
+    grid-area: projet;
+    top: 1rem;
+    left: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 28px;
+    color: $color-4;
+  
+    &:before {
+      content: '';
+      
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      background: $color-3;
+      top: -150px;
+      left: -160px;
+      z-index: -1;
+      animation: navAnim 20s infinite alternate;
+  
+      @keyframes navAnim {
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      @media screen and (max-width: 430px){
+        height: 50px;
+        width: 50px;
+      }
+    }
+    .nav-active1 {
+      color: $black;
+    }
+    ul:hover li:not(:hover) {
+      opacity: .5;
+    }
+    ul:hover li:hover {
+      color: $black;
+    }
+  
+    .nav-portfolio {
+      cursor: pointer;
+      display: flex;
+      // padding-right: 6rem;
+      transition: .5s;
+      &:hover .nav-projects,
+      .nav-projects:hover {
+        
+        visibility: visible;
+        opacity: 1;
+  
+        li {
+          transform: rotatey(0deg)
+        }
+      }
+  
+      .nav-projects {
+       position: relative;
+        visibility: hidden;
+        opacity: 0;
+        padding: 0 10px;
+        width: 100px;
+        transform: translateX(70px);
+        transition: .3s ;
+        perspective: 500px;
+  
+        li {
+          transform: rotatey(30deg) scaleX(1.2);
+          transform-origin: center;
+          transition: .3s;
+        }
+      }
+     }
+  }
+
+
+
+
