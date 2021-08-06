@@ -9,7 +9,7 @@ const Header = () => {
                 -liens vers mon linkedin pour me contacter
                 -liens au bas de ma page pour aller sur mes differents projets (je ne les ai pas tous encore integrés)  les technologies sur lequel je me concentre et j'apprends encore tout les jours allday
                 
-                aussi si vous pou suivzez les liens tout a droite vous y trouverez une page contact pour me contacter directement par mail  directement bien sur
+                aussi si vous pou suivzez les liens tout a droite vous y trouverez une page contact pour me contacter directement par mail  directement bien sur aussi
             </h3>
         </div>
     );
