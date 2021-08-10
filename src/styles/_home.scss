@@ -1,136 +1,148 @@
+.body {
+  display: grid;
+  height: 1200px;
+  grid-template-columns: repeat(12, 1fr);
 
-*{
-    text-decoration: none;
+  grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+  gap: 3%;
+  grid-template-areas:
+    ". .  header header header header header header header header . . "
+    ". .  projet-flag . projet-3 . . navigation  contact . . . "
+    ". .  . . . . . navigation  . . . . "
+    ". .  projet-2 . projet-4 . . navigation  . . . . "
+    ". .  . .  . . .  .  . . . . ";
+
+  li {
+    color: $texte;
+  }
+  .header-home {
+    color: white;
+    font-size: 2rem;
+  }
+  .title-cv {
+    color: $initial-color;
+  }
 }
 
-body{
-background-color: rgba(172, 142, 129, 0.427);
+.button-home {
+  text-align: center;
+  padding: 2% 7% 12% 3%;
+  font-size: 1rem;
+  background-color: rgb(76, 125, 91);
+  height: 33%;
+  width: 120%;
+  border: solid 4px rgb(84, 187, 113);
+  border-radius: 25%;
+
+  .color-button {
+    color: white;
+  }
+}
+.projet-flag {
+  grid-area: projet-flag;
+  font-size: 2rem;
+}
+.projet-2 {
+  grid-area: projet-2;
+  font-size: 2rem;
+}
+.projet-3 {
+  grid-area: projet-3;
+  font-size: 2rem;
+}
+.projet-4 {
+  grid-area: projet-4;
+  font-size: 2rem;
+}
+.contact1 {
+  grid-area: contact;
+  font-size: 2rem;
+}
+.home-proj {
+  font-size: 1rem;
 }
 
-
-.body{
-    display: grid;
-    height: 1200px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: (1fr,1fr,1fr,1fr,1fr,1fr,1fr);
-    grid-template-areas: 
-  "  navbar navbar  navbar header header header header header header header header header" 
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar  navbar navbar . projet projet projet projet projet projet projet projet"
-  "navbar navbar navbar scroll scroll scroll scroll scroll scroll scroll scroll scroll";
+.header {
+  grid-area: header;
 }
-.header{
-    grid-area: header;
-   
-}
-.navbar{
-    color: turquoise;
-    grid-area: navbar;
-
-
-    img{
-
-        width: 300px;
-        height: 200px;
-    }
-    
-}
-.scroll-botton{
-    color: turquoise;
-    grid-area: scroll;
-}
-
-
-   
-    
-$color-3: #9b6b6b;
-$color-4: #4c6d7456;
-$black: #0c0c0c;
-
 
 .navigation {
- 
-    grid-area: projet;
-    top: 1rem;
-    left: 1.4rem;
-    font-size: 1.4rem;
-    line-height: 28px;
-    color: $color-4;
-  
-    &:before {
-      content: '';
-      
-      height: 300px;
-      width: 300px;
-      border-radius: 50%;
-      background: $color-3;
-      top: -150px;
-      left: -160px;
-      z-index: -1;
-      animation: navAnim 20s infinite alternate;
-  
-      @keyframes navAnim {
-        50% {
-          transform: scale(1.2);
-        }
-        100% {
-          transform: scale(1);
-        }
+  font-size: 1.4rem;
+  line-height: 28px;
+  color: $color-3;
+
+  &:before {
+    content: "";
+    grid-area: navigation;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: $color-3;
+    z-index: -1;
+    animation: navAnim 20s infinite alternate;
+
+    @keyframes navAnim {
+      50% {
+        transform: scale(3.2);
       }
-      @media screen and (max-width: 430px){
-        height: 50px;
-        width: 50px;
+      100% {
+        transform: scale(1);
       }
     }
-    .nav-active1 {
-      color: $black;
+    @media screen and (max-width: 430px) {
+      height: 50px;
+      width: 50px;
     }
-    ul:hover li:not(:hover) {
-      opacity: .5;
-    }
-    ul:hover li:hover {
-      color: $black;
-    }
-  
-    .nav-portfolio {
-      cursor: pointer;
-      display: flex;
-      // padding-right: 6rem;
-      transition: .5s;
-      &:hover .nav-projects,
-      .nav-projects:hover {
-        
-        visibility: visible;
-        opacity: 1;
-  
-        li {
-          transform: rotatey(0deg)
-        }
-      }
-  
-      .nav-projects {
-       position: relative;
-        visibility: hidden;
-        opacity: 0;
-        padding: 0 10px;
-        width: 100px;
-        transform: translateX(70px);
-        transition: .3s ;
-        perspective: 500px;
-  
-        li {
-          transform: rotatey(30deg) scaleX(1.2);
-          transform-origin: center;
-          transition: .3s;
-        }
-      }
-     }
+  }
+  .nav-active1 {
+    color: $black;
+  }
+  ul:hover li:not(:hover) {
+    opacity: 0.5;
+  }
+  ul:hover li:hover {
+    color: $black;
   }
 
+  .nav-portfolio {
+    cursor: pointer;
+    display: flex;
+    // padding-right: 6rem;
+    transition: 0.5s;
+    &:hover .nav-projects,
+    .nav-projects:hover {
+      visibility: visible;
+      opacity: 1;
 
+      li {
+        transform: rotatey(0deg);
+      }
+    }
 
+    .nav-projects {
+      position: relative;
+      visibility: hidden;
+      opacity: 0;
+      padding: 0 10px;
+      width: 100px;
+      transform: translateX(70px);
+      transition: 0.3s;
+      perspective: 500px;
 
+      li {
+        transform: rotatey(30deg) scaleX(1.2);
+        transform-origin: center;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .button-home {
+    height: 33%;
+    width: 120%;
+    font-size: 1rem;
+    grid: 10px;
+  }
+}

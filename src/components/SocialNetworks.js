@@ -28,14 +28,14 @@ const SocialNetwork = () => {
             <ul className="content">
                 <a href="https://www.facebook.com" target="blank" rel="noopener noreferrer" className="hover" onMouseOver={anim}  >
                     <li>
-                        <i className="fab fa-facebook"></i>
+                        <i className="fab fa-facebook color-social"></i>
                     </li>
                 </a>
             </ul>
             <ul className="content">
                 <a href="https://www.linkedin.com/in/clement-dominique" target="blank" rel="noopener noreferrer" className="hover" onMouseOver={anim}>
                     <li>
-                        <i className="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in color-lin"></i>
                     </li>
                 </a>
             </ul>

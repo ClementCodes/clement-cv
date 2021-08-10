@@ -16,9 +16,9 @@ export const projectsData = [
         date: "Mars 2020",
         languages: ["Symfony", "Vue"],
         infos:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+            "Voici un projet avec systeme de crud base de donnée mongodb systeme d'authentification",
         img: "./assets/img/react.png",
-        link: "http://www.google.com",
+        link: "https://rocky-plains-40656.herokuapp.com/#/",
     },
     {
         id: 3,
