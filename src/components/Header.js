@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 
 const Header = () => {
     return (
@@ -13,7 +15,13 @@ const Header = () => {
                     <br />
                     <p>Je me presente Clément 33 ans,  vous y trouverez  plusieurs projets sur differentes pages  avec les liens ci dessous  :</p>
                     <br /><br /><br />
-                    <li> Ici un lien  pour télécharger mon cv standard </li>
+                   
+                        
+                    <a href="#"
+   download="../img/cv-dev-web.png"> <li> Ici un lien  pour télécharger mon cv standard
+                        </li></a>
+                       
+                       
                     <br />
                     <li>  Au milieu de la page d'acceuil avec 4 liens de projets </li>
                     <br />
