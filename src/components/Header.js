@@ -3,14 +3,25 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <h1 className="title" >CV DOMINIQUE Clément  <span>    </span> Projet  <span>    </span>/ /  <span>    </span>Portfolio <span>    </span></h1>
-            <h2>Voici mon CV </h2>
-            <h3>Bienvenue sur mon CV qui est continuellement en chantier vous y trouverez une partie cv classique ainsi que differents liens :
-                -liens vers mon linkedin pour me contacter
-                -liens au bas de ma page pour aller sur mes differents projets (je ne les ai pas tous encore integrés)  les technologies sur lequel je me concentre et j'apprends encore tout les jours allday
-                
-                aussi si vous pou suivzez les liens tout a droite vous y trouverez une page contact pour me contacter directement par mail  directement bien sur
-            </h3>
+            <h1 className="header-home" >Clément<span className="title-cv" >CV</span>
+            </h1>
+            <br />
+            <br />
+            <h2>
+                <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisé en react.
+                    <br />
+                    <br />
+                    <p>Je me presente Clément 33 ans,  vous y trouverez  plusieurs projets sur differentes pages  avec les liens ci dessous  :</p>
+                    <br /><br /><br />
+                    <li> Ici un lien  pour télécharger mon cv standard </li>
+                    <br />
+                    <li>  Au milieu de la page d'acceuil avec 4 liens de projets </li>
+                    <br />
+                    <li>   Puis un lien qui dirigera  vers la page  de contact</li>
+                    <li></li>
+                </p>
+                <p></p>    
+            </h2>
         </div>
     );
 };

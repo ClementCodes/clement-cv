@@ -5,7 +5,7 @@
 
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import {  Switch, Route } from "react-router-dom";
 import ProjetFlag from './components/ProjetFlag';
 import { Project1, Project2, Project3, Project4 } from './pages/ProjectPage';
 import Contact from './pages/Contact';
@@ -16,7 +16,7 @@ import PageTest from './pages/PageTest';
 
 function App() {
   return (
-    <BrowserRouter>
+    
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/projetflag" component={ProjetFlag} />
@@ -29,7 +29,7 @@ function App() {
         <Route exact path="/project-4" component={Project4} />
         <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
+    
 
 
   );

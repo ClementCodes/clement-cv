@@ -20,7 +20,9 @@ export const Project1 = () => {
                 <Navigation />
 
                 <Project projectNumber={0} />
-                <ButtonsScroll left={'/projetFlag'} right={'/project-2'} />
+                <div className="absolute">
+                <ButtonsScroll left={'/projetFlag'} right={'/project-2'}  />
+                </div>
             </div>
         </main>
     );
@@ -34,7 +36,9 @@ export const Project2 = () => {
                 <Navigation />
 
                 <Project projectNumber={1} />
-                <ButtonsScroll left={"/project-1"} right={"/project-3"} />
+                <div className="absolute">
+                    <ButtonsScroll left={"/project-1"} right={"/project-3"} />
+                    </div>
             </div>
         </main>
     );
@@ -48,7 +52,7 @@ export const Project3 = () => {
                 <Navigation />
 
                 <Project projectNumber={2} />
-                <ButtonsScroll left={"/project-2"} right={"/project-4"} />
+                <ButtonsScroll left={"/project-2"} right={"/project-4"} className="absolute" />
             </div>
         </main>
     );
