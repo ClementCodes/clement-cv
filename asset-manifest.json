@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/clement-cv/static/css/main.01bdc622.chunk.css",
-    "main.js": "/clement-cv/static/js/main.8dee83f8.chunk.js",
-    "main.js.map": "/clement-cv/static/js/main.8dee83f8.chunk.js.map",
+    "main.css": "/clement-cv/static/css/main.a250a0cb.chunk.css",
+    "main.js": "/clement-cv/static/js/main.e6b63c28.chunk.js",
+    "main.js.map": "/clement-cv/static/js/main.e6b63c28.chunk.js.map",
     "runtime-main.js": "/clement-cv/static/js/runtime-main.b7ad6591.js",
     "runtime-main.js.map": "/clement-cv/static/js/runtime-main.b7ad6591.js.map",
     "static/js/2.eb9c4fa5.chunk.js": "/clement-cv/static/js/2.eb9c4fa5.chunk.js",
     "static/js/2.eb9c4fa5.chunk.js.map": "/clement-cv/static/js/2.eb9c4fa5.chunk.js.map",
     "index.html": "/clement-cv/index.html",
-    "static/css/main.01bdc622.chunk.css.map": "/clement-cv/static/css/main.01bdc622.chunk.css.map",
+    "static/css/main.a250a0cb.chunk.css.map": "/clement-cv/static/css/main.a250a0cb.chunk.css.map",
     "static/js/2.eb9c4fa5.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.eb9c4fa5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b7ad6591.js",
     "static/js/2.eb9c4fa5.chunk.js",
-    "static/css/main.01bdc622.chunk.css",
-    "static/js/main.8dee83f8.chunk.js"
+    "static/css/main.a250a0cb.chunk.css",
+    "static/js/main.e6b63c28.chunk.js"
   ]
 }
