@@ -27,17 +27,17 @@ export const projectsData = [
         languages: ["Wordpress", "Php", "React"],
         infos:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-        img: "../assets/img/react.png",
+        img: "./assets/img/react.png",
         link: "http://www.google.com",
     },
     {
         id: 4,
-        title: "Creative Dev",
-        date: "Juillet 2020",
-        languages: ["Vue", "Php"],
+        title: "My cave",
+        date: "Avril 2021",
+        languages: ["js", "Php"],
         infos:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-        img: "./assets/img/react.png",
-        link: "http://www.google.com",
+            "Ce site est un site pour stoické en fonction de la région ses buteilles de vin, réalisé pour le back avec du php  avec un systeme de crud pour la base de donée avec mySql et pour le front en bootstrap(4) et javascript",
+        img: "./assets/img/projet-2.jpg",
+        link: "https://projetcave.000webhostapp.com/",
     },
 ];

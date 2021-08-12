@@ -8,7 +8,7 @@ const Project = (props) => {
     const [currentProject] = useState(projectsData);
 
     const project = currentProject[props.projectNumber];
-    console.log(project.img);
+    console.log(project);
     return (
 
         <div className="project-main">
@@ -28,12 +28,12 @@ const Project = (props) => {
                         <h3>{project.title}</h3>
                         <p>{project.infos}</p>
                     </span>
-                    <img src={projectsData.img} alt={project.title} className="img" />
-
+                    <img src={project.img} alt={project.title} className="img" />
+                   
 
                 </div>
                 <div className="button-container">
-
+                
 
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover">
                         <span className="button">Voir le site</span>
