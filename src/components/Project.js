@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
-import { projectsData } from '../Data/projectsData';
+import { projectsData } from '../data/projectsData';
 import { motion } from 'framer-motion';
+import { Project4 } from '../pages/ProjectPage';
 
 
 const Project = (props) => {
@@ -51,9 +52,12 @@ const Project = (props) => {
     const [currentProject] = useState(projectsData);
 
     const project = currentProject[props.projectNumber];
-    console.log(project);
+  console.log(project);
+
+  
     return (
 
+      <main>
         <div className="project-main">
             <div className="project-content">
                 <h1>{project.title}</h1>
@@ -90,6 +94,7 @@ const Project = (props) => {
                     </motion.div>
             </div>
         </div>
+        </main>
     );
 };
 

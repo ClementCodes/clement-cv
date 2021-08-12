@@ -30,9 +30,10 @@ const Home = () => {
                 </NavLink></div>
                 <div className="contact1 button-home" > <NavLink to="/contact" >
                 <ul> <li className="color-button"> Contact</li></ul>   
-                </NavLink></div>
-               
-            
+            </NavLink></div>
+            <div className="paul">
+               <img src=".././public/assets/img/projet-2.jpg" alt="" />
+            </div>
             {/* <div><DynamicText /> </div> */}
             <div className="color-social"><SocialNetwork /></div>
             <div>
