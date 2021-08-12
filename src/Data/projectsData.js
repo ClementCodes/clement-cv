@@ -12,11 +12,11 @@ export const projectsData = [
     },
     {
         id: 2,
-        title: "Lyon Béton",
+        title: "Projet Mern",
         date: "Mars 2020",
-        languages: ["Symfony", "Vue"],
+        languages: ["Express", "React","MongoDb"],
         infos:
-            "Voici un projet avec systeme de crud base de donnée mongodb systeme d'authentification",
+            "Voici un projet avec systeme de crud, une base de donnée mongodb avec systeme d'authentification",
         img: "./assets/img/react.png",
         link: "https://rocky-plains-40656.herokuapp.com/#/",
     },
@@ -32,11 +32,11 @@ export const projectsData = [
     },
     {
         id: 4,
-        title: "My cave",
+        title: "My cave, CRUD",
         date: "Avril 2021",
-        languages: ["js", "Php"],
-        infos: "Ce site est un site pour stoické en fonction de la région ses buteilles de vin, réalisé pour le back avec du php  avec un systeme de crud pour la base de donée avec mySql et pour le front en bootstrap(4) et javascript",
-        img: "/Users/ordideclement/Documents/fil_rouge_react/public/assets/img/cv-dev-web.png",
+        languages: ["Js", "Php","MySql"],
+        infos: "Systeme de stock, réalisé en php  avec un systeme de crud pour la base de donée avec mySql et pour le front en bootstrap(4) et javascript",
+        img: "./assets/img/my_cave.png",
         link: "https://projetcave.000webhostapp.com/",
     },
 ];

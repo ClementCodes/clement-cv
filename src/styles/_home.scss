@@ -2,18 +2,20 @@
   display: grid;
   height: 1200px;
   grid-template-columns: repeat(12, 1fr);
-
   grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
   gap: 3%;
   grid-template-areas:
     ". .  header header header header header header header header . . "
-    ". .  projet-flag . projet-3 . . navigation  contact . . . "
-    ". .  . . . . . navigation  . . . . "
-    ". .  projet-2 . projet-4 . . navigation  . . . . "
+    ". .  projet-flag . projet-3 . navigation .  contact . . . "
+    ". .  . . . . . .  . . . . "
+    ". .  projet-2 . projet-4 . . .  . . . . "
     ". .  . .  . . .  .  . . . . ";
 
   li {
     color: $texte;
+  }
+  .en-cours {
+    color: black;
   }
   .header-home {
     color: white;
@@ -22,6 +24,9 @@
   .title-cv {
     color: $initial-color;
   }
+}
+:hover .lien-cv {
+  color: orange;
 }
 
 // .button-home {
@@ -38,10 +43,7 @@
 //     color: white;
 //   }
 // }
-.paul {
-  height: 200px;
-  width: 200px;
-}
+
 .button-home {
   height: 60%;
   width: 110%;
@@ -92,7 +94,9 @@
 .header {
   grid-area: header;
 }
-
+.nav-link {
+  color: $texte;
+}
 .navigation {
   font-size: 1.4rem;
   line-height: 28px;
@@ -128,7 +132,7 @@
     opacity: 0.5;
   }
   ul:hover li:hover {
-    color: $black;
+    color: orange;
   }
 
   .nav-portfolio {
@@ -162,5 +166,109 @@
         transition: 0.3s;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .body {
+    display: grid;
+    height: 1200px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+    gap: 3%;
+    grid-template-areas:
+      ". .  . header header header header header header . . . "
+      ". .  projet-flag . projet-3 . navigation .  contact . . . "
+      ". .  . . . . . .  . . . . "
+      ". .  projet-2 . projet-4 . . .  . . . . "
+      ". .  . .  . . .  .  . . . . ";
+  }
+  h2 {
+    margin-left: -5%;
+  }
+  .color-button {
+    margin-top: -7%;
+  }
+
+  .projet-2 {
+    padding-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .body {
+    display: grid;
+    height: 1200px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+    gap: 3%;
+    grid-template-areas:
+      "    header header header header header header   "
+      "   projet-flag  projet-3  navigation  . .   "
+      "   . . . . . contact  . . . .  "
+      "   projet-2  projet-4 . . .  . .   "
+      "   . .  . . .  .  . . .  ";
+  }
+  h2 {
+    margin-left: -13%;
+  }
+
+  .contact1 {
+    grid-area: contact;
+    font-size: 2rem;
+
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .body {
+    display: grid;
+    height: 1200px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+    gap: 3%;
+    grid-template-areas:
+      "    header header header header header header   "
+      "   projet-flag  projet-3  navigation  . .   "
+      "   . . . . . contact  . . . .  "
+      "   projet-2  projet-4 . . .  . .   "
+      "   . .  . . .  .  . . .  ";
+  }
+  h2 {
+    margin-left: -28%;
+  }
+
+  .contact1 {
+    grid-area: contact;
+    font-size: 2rem;
+    padding-right: 6%;
+    margin-left: -25%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .body {
+    display: grid;
+    height: 1200px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+    gap: 3%;
+    grid-template-areas:
+      ". .  . header header header header header header . . . "
+      ". .  projet-flag . projet-3 . navigation .  contact . . . "
+      ". .  . . . . . .  . . . . "
+      ". .  projet-2 . projet-4 . . .  . . . . "
+      ". .  . .  . . .  .  . . . . ";
+  }
+
+  h2 {
+    margin-left: -42%;
+  }
+  .contact1 {
+    margin-left: -29%;
+  }
+
+  .color-button {
+    margin-top: -15%;
   }
 }

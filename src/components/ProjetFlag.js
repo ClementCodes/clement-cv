@@ -12,7 +12,7 @@ const Projet = () => {
 
             <Pays />
             <div className="countries"></div>
-            <ButtonsScroll left={"/"} right={"/project-1"} />
+            <ButtonsScroll left={"/"} right={"/project-2"} />
 
         </div>
     );

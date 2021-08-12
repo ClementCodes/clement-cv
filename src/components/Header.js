@@ -10,7 +10,7 @@ const Header = () => {
             <br />
             <br />
             <h2>
-                <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisé en react et en cours de réalisation.
+                <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisé en react et <span className="en-cours"> en cours de réalisation.</span>
                     <br />
                     <br />
                     <p>Je me presente Clément 33 ans,  vous y trouverez  plusieurs projets sur differentes pages  avec les liens ci dessous  :</p>
@@ -18,7 +18,7 @@ const Header = () => {
                    
                         
                     <a href="/"
-   download="../img/cv-dev-web.png"> <li> Ici un lien  pour télécharger mon cv standard
+   download="../img/cv-dev-web.png"> <li className="lien-cv"> Ici un lien  pour télécharger mon cv standard
                         </li></a>
                        
                        

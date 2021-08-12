@@ -36,8 +36,8 @@ const Home = () => {
             </div>
             {/* <div><DynamicText /> </div> */}
             <div className="color-social"><SocialNetwork /></div>
-            <div>
-               <ButtonsScroll left={"/contact"} right={"/projetFlag"} /></div>
+            {/* <div>
+               <ButtonsScroll left={"/contact"} right={"/projetFlag"} /></div>  */}
         </div>
     );
 };

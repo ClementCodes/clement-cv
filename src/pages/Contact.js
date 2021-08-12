@@ -51,8 +51,11 @@ const Contact = () => {
                         <Formulaire />
                     </div>
                 </div>
+                <div>
+        <ButtonsScroll left={'/project-4'} /></div>
             </div>
-            <div><ButtonsScroll left={'/project-4'} /></div>
+           
+        
         </main>
      
        

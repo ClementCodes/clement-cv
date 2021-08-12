@@ -7,21 +7,21 @@ import Project from '../components/Project';
 
 
 
-export const Project1 = () => {
+// export const Project1 = () => {
 
-    return (
-        <main>
+//     return (
+//         <main>
 
-            <div className="project">
-                <Navigation />
-                <Project projectNumber={0} />
-                <div className="absolute">
-                <ButtonsScroll left={'/projetFlag'} right={'/project-2'}  />
-                </div>
-            </div>
-        </main>
-    );
-};
+//             <div className="project">
+//                 <Navigation />
+//                 <Project projectNumber={0} />
+//                 <div className="absolute">
+//                 <ButtonsScroll left={'/projetFlag'} right={'/project-2'}  />
+//                 </div>
+//             </div>
+//         </main>
+//     );
+// };
 
 export const Project2 = () => {
     return (
@@ -32,7 +32,7 @@ export const Project2 = () => {
 
                 <Project projectNumber={1} />
                 <div className="absolute">
-                    <ButtonsScroll left={"/project-1"} right={"/project-3"} />
+                    <ButtonsScroll left={"/projetflag"} right={"/project-3"} />
                     </div>
             </div>
         </main>
