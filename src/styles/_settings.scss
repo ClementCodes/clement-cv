@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,600&display=swap");
 
-$background: #b6dec9;
+$background: linear-gradient(115deg, #b6dec9 50%, transparent 100%);
 $texte: white;
 $black: black;
 $texte: #5e97ba;
@@ -18,7 +18,7 @@ $initial-color: rgb(220, 172, 83);
 }
 
 body {
-  background-color: $background;
+  background-color: linear-gradient(115deg, #b6dec9 50%, transparent 100%);
   font-family: "Josefin Sans", sans-serif;
   color: $texte;
 

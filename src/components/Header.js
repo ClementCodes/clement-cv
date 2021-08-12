@@ -17,8 +17,8 @@ const Header = () => {
                     <br /><br /><br />
                    
                         
-                    <a href="/"
-   download="../img/cv-dev-web.png"> <li className="lien-cv"> Ici un lien  pour télécharger mon cv standard
+                    <a href="./assets/img/cv-dev-web.jpg" download="cv" target="_blank"
+   > <li className="lien-cv"> Ici un lien  pour télécharger mon cv standard
                         </li></a>
                        
                        
