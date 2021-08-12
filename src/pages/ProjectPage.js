@@ -9,16 +9,11 @@ import Project from '../components/Project';
 
 export const Project1 = () => {
 
-
-
-
-
     return (
         <main>
 
             <div className="project">
                 <Navigation />
-
                 <Project projectNumber={0} />
                 <div className="absolute">
                 <ButtonsScroll left={'/projetFlag'} right={'/project-2'}  />
@@ -59,6 +54,7 @@ export const Project3 = () => {
 };
 
 export const Project4 = () => {
+    
     return (
         <main>
 

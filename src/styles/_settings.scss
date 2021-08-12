@@ -10,10 +10,28 @@ $initial-color: rgb(220, 172, 83);
 
 * {
   text-decoration: none;
+
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 body {
   background-color: $background;
   font-family: "Josefin Sans", sans-serif;
   color: $texte;
+  height: 100vh;
+  overflow: hidden;
+}
+
+$font-2: #8c6e6e;
+$color-2: #0955a056;
+$color-4: #0955a056;
+$color-3: #0955a056;
+$color-1: #0955a056;
+
+main {
+  position: relative;
 }

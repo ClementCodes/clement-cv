@@ -24,19 +24,46 @@
   }
 }
 
-.button-home {
-  text-align: center;
-  padding: 2% 7% 12% 3%;
-  font-size: 1rem;
-  background-color: rgb(76, 125, 91);
-  height: 33%;
-  width: 120%;
-  border: solid 4px rgb(84, 187, 113);
-  border-radius: 25%;
+// .button-home {
+//   text-align: center;
+//   padding: 2% 7% 12% 3%;
+//   font-size: 1rem;
+//   background-color: rgb(76, 125, 91);
+//   height: 33%;
+//   width: 120%;
+//   border: solid 4px rgb(84, 187, 113);
+//   border-radius: 25%;
 
-  .color-button {
-    color: white;
-  }
+//   .color-button {
+//     color: white;
+//   }
+// }
+.paul {
+  height: 200px;
+  width: 200px;
+}
+.button-home {
+  height: 60%;
+  width: 110%;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 10px 0 rgba(91, 163, 201, 0.5);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(84, 187, 113);
+  color: #b4d0ce !important;
+  border: 1px solid rgb(29, 29, 39);
+  display: inline-block;
+  border-radius: 19px;
+  transition: all 0.3s ease-in 0s;
+  margin-bottom: -26%;
+}
+.button-home:hover {
+  text-decoration: none;
+  background-color: rgb(50, 62, 65);
+  color: rgb(238, 224, 224) !important;
 }
 .projet-flag {
   grid-area: projet-flag;
@@ -135,14 +162,5 @@
         transition: 0.3s;
       }
     }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .button-home {
-    height: 33%;
-    width: 120%;
-    font-size: 1rem;
-    grid: 10px;
   }
 }
