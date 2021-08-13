@@ -3,8 +3,9 @@ import React from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import ButtonsScroll from '../components/Buttons-scroll';
 import Formulaire from '../components/Formulaire';
+import Navbar from '../components/Navbar';
 
-import Navigation from '../components/Navigation';
+
 import SocialNetwork from '../components/SocialNetworks';
 
 const Contact = () => {
@@ -12,7 +13,9 @@ const Contact = () => {
         <main>
               
             <div className="contact">
-                 <Navigation />
+                <Navbar />
+                
+                <br />
                 <div className="contact-infos">
                     <div className="adress">
                         <div className="content">

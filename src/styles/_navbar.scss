@@ -1,0 +1,57 @@
+nav {
+  height: 50px;
+  background: rgb(0, 0, 0);
+  z-index: -10;
+  margin-bottom: 5%;
+}
+.liste {
+  list-style-type: none;
+  background: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.liste ::hover {
+  background-color: black;
+}
+.items {
+  margin-right: 10px;
+  color: orange;
+  cursor: pointer;
+}
+.btn {
+  background-color: black;
+  display: none;
+  color: orange;
+}
+
+@media screen and (max-width: 500px) {
+  .liste {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .items:nth-child(1) {
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+  }
+  .items {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    line-height: 50px;
+  }
+  //line height permetde centrersur la height parfaitement a la meme hauteur
+
+  .btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: orange;
+    cursor: pointer;
+  }
+}

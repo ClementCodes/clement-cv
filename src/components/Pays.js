@@ -49,6 +49,7 @@ const Pays = () => {
     }, [data, rangeValue, playOnce]);
     // call back  tableau[]
     return (
+        
         <div>
             <div className="pays">
                 <div className="sort-countainer">

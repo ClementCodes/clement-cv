@@ -1,12 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Navbar from './Navbar';
+
 
 
 const Header = () => {
     return (
         <div>
             <h1 className="header-home" >Clément<span className="title-cv" >CV</span>
+                
+
+                
             </h1>
+            {/* <span> <Navbar /></span> */}
             <br />
             <br />
             <h2>

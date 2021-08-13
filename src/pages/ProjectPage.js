@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonsScroll from '../components/Buttons-scroll';
-import Navigation from '../components/Navigation';
+import Navbar from '../components/Navbar';
+
 import Project from '../components/Project';
 
 
@@ -28,7 +29,8 @@ export const Project2 = () => {
         <main>
 
             <div className="project">
-                <Navigation />
+                <Navbar/>
+               
 
                 <Project projectNumber={1} />
                 <div className="absolute">
@@ -44,7 +46,8 @@ export const Project3 = () => {
         <main>
 
             <div className="project">
-                <Navigation />
+              
+                <Navbar/>
 
                 <Project projectNumber={2} />
                 <ButtonsScroll left={"/project-2"} right={"/project-4"} className="absolute" />
@@ -59,7 +62,7 @@ export const Project4 = () => {
         <main>
 
             <div className="project">
-                <Navigation />
+            <Navbar/>
 
                 <Project projectNumber={3} />
                 <ButtonsScroll left={"/project-3"} right={"/contact"} />
