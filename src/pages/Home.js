@@ -1,9 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import ButtonsScroll from '../components/Buttons-scroll';
-// import DynamicText from '../components/DynamicText';
 import Header from '../components/Header';
-import SocialNetwork from '../components/SocialNetworks';
+
 
 
 
@@ -11,7 +9,8 @@ import SocialNetwork from '../components/SocialNetworks';
 const Home = () => {
   
     return (
-        <div className="body navigation ">
+        <div className="home navigation ">
+           
             <div className="header"><Header />
             </div>
           
@@ -35,7 +34,7 @@ const Home = () => {
                <img src=".././public/assets/img/projet-2.jpg" alt="" />
             </div>
             {/* <div><DynamicText /> </div> */}
-            <div className="color-social"><SocialNetwork /></div>
+           
             {/* <div>
                <ButtonsScroll left={"/contact"} right={"/projetFlag"} /></div>  */}
         </div>

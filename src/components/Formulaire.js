@@ -80,7 +80,7 @@ const Formulaire = () => {
             });
 
         } else {
-            failMessage("Merci de remplir correctement les champs et  non pas avec des salades mais avec des etoiles * ");
+            failMessage("Merci de remplir correctement les champs   non pas avec des salades mais avec des etoiles * ");
         }
     };
 
