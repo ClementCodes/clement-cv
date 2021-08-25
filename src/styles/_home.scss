@@ -226,9 +226,10 @@
     gap: 3%;
     grid-template-areas:
       " header header header header header header  "
-      "  .projet-flag . projet-2  navigation  . "
+      "  .projet-flag . projet-2  .  . "
       "  . projet-3 . projet-4 . .  "
-      "   . . contact . . .  ";
+      "   . . contact  . . . "
+      "   . . .  navigation . . ";
   }
 
   .projet-flag {
