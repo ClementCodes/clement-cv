@@ -332,4 +332,8 @@ $red: #ac2121;
       }
     }
   }
+
+  @media screen and (max-width: 375px) {
+    max-width: 375px;
+  }
 }

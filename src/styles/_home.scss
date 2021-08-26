@@ -8,7 +8,7 @@
   gap: 3%;
   grid-template-areas:
     "  header header header header header header header header  "
-    "  . projet-flag  projet-3 . . .  contact . "
+    "  . projet-flag  projet-3 . . .  contact. "
     "   . projet-2  projet-4 . . .  . .   ";
 
   .navbar {
@@ -108,7 +108,29 @@
     color: rgb(238, 224, 224) !important;
     box-shadow: 0 3px 8px rgb(50, 62, 65);
   }
+  .contact1 {
+    grid-area: contact;
 
+    text-align: center;
+
+    ul {
+      padding-top: 24px;
+      padding-right: 100px;
+      height: 100px;
+      width: 260px;
+      font-size: 2rem;
+      cursor: pointer;
+      box-sizing: border-box;
+      box-shadow: 0 3px 8px rgb(50, 62, 65);
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: rgb(50, 62, 65);
+      border-radius: 19px;
+      transition: all 0.3s ease-in 0s;
+
+      font-size: 2rem;
+    }
+  }
   .projet-flag {
     grid-area: projet-flag;
     font-size: 2rem;
@@ -133,29 +155,7 @@
     padding-right: 18%;
     padding-left: 3%;
   }
-  .contact1 {
-    grid-area: contact;
-    align-items: center;
-    text-align: center;
 
-    ul {
-      padding-top: 24px;
-      padding-right: 100px;
-      height: 100px;
-      width: 260px;
-      font-size: 2rem;
-      cursor: pointer;
-      box-sizing: border-box;
-      box-shadow: 0 3px 8px rgb(50, 62, 65);
-      font-weight: bold;
-      text-transform: uppercase;
-      background-color: rgb(50, 62, 65);
-      border-radius: 19px;
-      transition: all 0.3s ease-in 0s;
-
-      font-size: 2rem;
-    }
-  }
   .home-proj {
     font-size: 1rem;
   }
@@ -166,5 +166,22 @@
   }
   .nav-link {
     color: $texte;
+  }
+}
+.home {
+  display: grid;
+
+  width: 100%;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+  gap: 3%;
+  grid-template-areas:
+    "  header header header header   "
+    "  . projet-flag  projet-3 .  "
+    "   . projet-2  projet-4 .   "
+    "   . contact contact .   ";
+  .contact1 {
+    margin-right: 20%;
   }
 }
