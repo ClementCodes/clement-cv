@@ -31,6 +31,7 @@ const Navbar = () => {
     },[])
     return (
         <nav  >
+          
             {(toggleMenu || largeur > 500) && (   
                 <ul className="liste">
                     <NavLink to="/" exact >
@@ -52,7 +53,7 @@ const Navbar = () => {
                         <li className="items">Contact</li>
                     </NavLink>
                 </ul>)}
-            <button onClick={toggleNavSmallScreen} className="btn">Menu</button>
+            <button onClick={toggleNavSmallScreen} className="btn">-=</button>
         </nav>
     );
 };

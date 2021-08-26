@@ -1,12 +1,20 @@
 nav {
-  height: 50px;
+  width: 100%;
   background-color: rgb(233, 228, 228);
+  background-color: rgb(233, 228, 228);
+  border: solid 1px rgb(233, 228, 228);
+  border-radius: 8px;
+
+  height: 50px;
+
   z-index: 10;
   margin-bottom: 5%;
 }
 .liste {
   list-style-type: none;
   background-color: rgb(233, 228, 228);
+  border: solid 1px rgb(233, 228, 228);
+  border-radius: 8px;
   margin: 0;
   padding: 0;
   height: 100px;
@@ -25,9 +33,10 @@ nav {
   cursor: pointer;
 }
 .btn {
-  background-color: black;
+  background-color: rgb(28, 101, 78);
+  border-radius: 10px;
   display: none;
-  color: orange;
+
   z-index: 11;
 }
 
@@ -51,9 +60,9 @@ nav {
   .btn {
     display: block;
     position: absolute;
-    right: 10px;
-    top: 10px;
-    color: orange;
+    right: 25px;
+    top: 15px;
+    color: rgb(254, 254, 254);
     cursor: pointer;
   }
 }

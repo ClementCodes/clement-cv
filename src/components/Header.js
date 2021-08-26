@@ -5,7 +5,7 @@ import SocialNetwork from "./SocialNetworks"
 
 const Header = () => {
     return (
-        <div>
+        <div >
             <div className="navbar" >
             <div ><SocialNetwork /></div>
                 <div   className="div-block"> <h1 className="header-home" >Clément<span className="title-cv" >PORTFOLIO</span>
@@ -17,6 +17,7 @@ const Header = () => {
             {/* <span> <Navbar /></span> */}
             <br />
             <br />
+           
             <h2>
                 <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisé en react et <span className="en-cours"> en cours de réalisation.</span>
                     <br />
