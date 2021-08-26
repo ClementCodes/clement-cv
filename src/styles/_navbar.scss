@@ -1,7 +1,7 @@
 nav {
   height: 50px;
   background-color: rgb(233, 228, 228);
-  z-index: -10;
+  z-index: 10;
   margin-bottom: 5%;
 }
 .liste {
@@ -14,6 +14,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 10;
 }
 .liste ::hover {
   background-color: black;
@@ -27,6 +28,7 @@ nav {
   background-color: black;
   display: none;
   color: orange;
+  z-index: 11;
 }
 
 @media screen and (max-width: 500px) {
