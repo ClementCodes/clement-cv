@@ -26,6 +26,9 @@ $red: #ac2121;
     }
     @media screen and (max-width: 430px) {
       display: none;
+      p:hover {
+        max-width: 300px;
+      }
     }
 
     @keyframes contactAnim {
@@ -229,21 +232,24 @@ $red: #ac2121;
     }
     p {
       @media screen and (min-width: 1200px) {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        color: brown;
       }
     }
     .email,
     .phone {
       @media screen and (max-height: 640px) {
         display: none;
+        max-width: 300px;
       }
     }
     .email .content p,
     .phone .content p {
       transition: 0.25s;
-
+      max-width: 375px;
       &:hover {
         transform: translateX(5px);
+        max-width: 375px;
       }
     }
 
@@ -277,16 +283,11 @@ $red: #ac2121;
           margin: 0 auto;
           left: 0;
           transform: translateX(0);
+          max-width: 300px;
         }
       }
     }
-    .email {
-      @media screen and (max-width: 540px) {
-        grid-area: c;
-        font-size: 0.8rem;
-        text-align: center;
-      }
-    }
+
     .social-network {
       position: relative;
       width: 80%;
@@ -317,6 +318,7 @@ $red: #ac2121;
       }
       p {
         font-size: 0.9rem;
+        max-width: 740px;
       }
     }
   }

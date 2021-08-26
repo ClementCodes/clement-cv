@@ -10,7 +10,7 @@ import SocialNetwork from '../components/SocialNetworks';
 
 const Contact = () => {
     return (
-        <main>
+        <main >
               
             <div className="contact">
                 <Navbar />
@@ -30,12 +30,12 @@ const Contact = () => {
                 </div>
                 <div className="phone">
                     <div className="content">
-                        <CopyToClipboard text="06 71 77 81 35" className="hover">
-                            <p style={{ cursor: "pointer" }}
+                        <CopyToClipboard text="06 71 77 81 35" >
+                            <h3 style={{ cursor: "pointer" }}
                                 className="clipboard"
                                 onClick={() => {
                                     alert("telephone copié  !");
-                                }} >06 71 77 81 35 </p>
+                                }} >06 71 77 81 35 </h3>
                         </CopyToClipboard>
                        
                     </div>
@@ -43,12 +43,12 @@ const Contact = () => {
                 <div className="email">
                     <div className="email">
                         <CopyToClipboard text="mrdominiqueclement@gmail.com"
-                            className="hover">
-                            <p style={{ cursor: "pointer" }}
-                                className="clipboard"
+                            className="hover2">
+                            <h3 style={{ cursor: "pointer" }}
+                                className="clipboard reduire"
                                 onClick={() => {
                                     alert("Email copié  !");
-                                }} >  Mrdominiqueclement@gmail.com</p>
+                                }} >  Mrdominiqueclement@gmail.com</h3>
                         </CopyToClipboard>
                         <SocialNetwork />
                         <Formulaire />
