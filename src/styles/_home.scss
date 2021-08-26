@@ -262,5 +262,22 @@
     width: 170px;
     padding-bottom: 70px;
     padding-top: -15px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .home {
+    width: 420px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .home {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .home {
+    width: 3é5px;
   }
 }
