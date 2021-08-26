@@ -36,19 +36,19 @@ const Navbar = () => {
             {(toggleMenu || largeur > 500) && (   
                 <ul className="liste">
                     <NavLink to="/" exact >
-                        <li className="items">Acceuil</li>
+                        <li className="items">Acceuil |</li>
                     </NavLink>
                     <NavLink to="/projetFlag" >
-                        <li className="items">Projet Flag</li>
+                        <li className="items">Projet React |</li>
                     </NavLink>
                     <NavLink to="/project-2" >
-                        <li className="items">Porjet MERN</li>
+                        <li className="items">Porjet MERN |</li>
                     </NavLink>
                     <NavLink to="/project-3" >
-                        <li className="items">Projet 3</li>
+                        <li className="items">Projet 3 |</li>
                     </NavLink>
                     <NavLink to="/project-4" >
-                        <li className="items">Projet My_cave</li>
+                        <li className="items">Projet PHP |</li>
                     </NavLink>
                     <NavLink to="/contact" >
                         <li className="items">Contact</li>

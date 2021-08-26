@@ -8,21 +8,6 @@ import Project from '../components/Project';
 
 
 
-// export const Project1 = () => {
-
-//     return (
-//         <main>
-
-//             <div className="project">
-//                 <Navigation />
-//                 <Project projectNumber={0} />
-//                 <div className="absolute">
-//                 <ButtonsScroll left={'/projetFlag'} right={'/project-2'}  />
-//                 </div>
-//             </div>
-//         </main>
-//     );
-// };
 
 export const Project2 = () => {
     return (

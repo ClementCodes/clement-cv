@@ -1,20 +1,19 @@
 .home {
   display: grid;
-  min-width: 200px;
 
-  width: 100vw;
+  width: 100%;
 
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
   gap: 3%;
   grid-template-areas:
     "  header header header header header header header header  "
-    "  . projet-flag  projet-3 . navigation .  contact . "
-    "   . projet-2  projet-4 . . .  . .   "
-    "  . .  . . .  .  . .  ";
+    "  . projet-flag  projet-3 . . .  contact . "
+    "   . projet-2  projet-4 . . .  . .   ";
 
   .navbar {
     height: 100px;
+    width: 100%;
     background-color: rgb(233, 228, 228);
     border: solid 1px rgb(233, 228, 228);
     border-radius: 10px;
@@ -27,11 +26,6 @@
       }
       .color-lin {
         color: #0e76a8;
-      }
-
-      @media screen and (max-width: 650px) {
-        width: 30%;
-        margin-right: -30%;
       }
 
       ul {
@@ -114,6 +108,7 @@
     color: rgb(238, 224, 224) !important;
     box-shadow: 0 3px 8px rgb(50, 62, 65);
   }
+
   .projet-flag {
     grid-area: projet-flag;
     font-size: 2rem;
@@ -171,43 +166,5 @@
   }
   .nav-link {
     color: $texte;
-  }
-  .navigation {
-    font-size: 1.4rem;
-    line-height: 28px;
-    color: $color-3;
-
-    &:before {
-      content: "";
-      grid-area: navigation;
-      height: 100px;
-      width: 100px;
-      border-radius: 50%;
-      background: $color-3;
-      z-index: -1;
-      animation: navAnim 20s infinite alternate;
-
-      @keyframes navAnim {
-        50% {
-          transform: scale(3.2);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-      @media screen and (max-width: 430px) {
-        height: 50px;
-        width: 50px;
-      }
-    }
-    .nav-active1 {
-      color: $black;
-    }
-    ul:hover li:not(:hover) {
-      opacity: 0.5;
-    }
-    ul:hover li:hover {
-      color: orange;
-    }
   }
 }
