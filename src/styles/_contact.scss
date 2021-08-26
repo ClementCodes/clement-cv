@@ -332,8 +332,13 @@ $red: #ac2121;
       }
     }
   }
-
+  @media screen and (max-width: 425px) {
+    max-width: 425px;
+  }
   @media screen and (max-width: 375px) {
     max-width: 375px;
+  }
+  .contact-form {
+    margin-left: 1%;
   }
 }
