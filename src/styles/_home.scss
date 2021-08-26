@@ -174,20 +174,18 @@
   @media screen and (max-width: 375px) {
     max-width: 375px;
 
-    .home {
-      display: grid;
-      width: 100%;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
-      gap: 3%;
-      grid-template-areas:
-        "  header header header header   "
-        "  . projet-flag  projet-3 .  "
-        "   . projet-2  projet-4 .   "
-        "   . contact contact .   ";
-      .contact1 {
-        margin-right: 20%;
-      }
+    display: grid;
+    max-width: 375px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
+    gap: 3%;
+    grid-template-areas:
+      "  header header header header   "
+      "  . projet-flag  projet-3 .  "
+      "   . projet-2  projet-4 .   "
+      "   . contact contact .   ";
+    .contact1 {
+      margin-right: 20%;
     }
   }
 }
