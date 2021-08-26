@@ -6,13 +6,6 @@
   }
 }
 
-p {
-  display: inline;
-  font-size: 33px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .scroll-bottom {
   position: absolute;
   bottom: 1rem;
@@ -80,5 +73,12 @@ p {
         font-size: 1.8rem;
       }
     }
+  }
+  p {
+    display: inline;
+    font-size: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: brown;
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+
 import SocialNetwork from "./SocialNetworks"
 
 
@@ -19,7 +19,7 @@ const Header = () => {
             <br />
            
             <h2>
-                <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisé en react et <span className="en-cours"> en cours de réalisation.</span>
+                <p>Bienvenue sur ma page  portfolio, elle est entièrement réalisée en react et <span className="en-cours"> en cours de réalisation.</span>
                     <br />
                     <br />
                     <p>Je me presente Clément 33 ans,  vous y trouverez  plusieurs projets sur differentes pages  avec les liens ci dessous  :</p>

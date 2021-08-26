@@ -16,19 +16,19 @@ const Home = () => {
           
                 <div className="projet-flag button-home ">
                     <NavLink to="/projetFlag" >
-                      <ul> <li className="color-button">Projet 1</li></ul>  
+                      <ul> <li >Projet 1</li></ul>  
                     </NavLink></div>
                 <div className="projet-2 button-home "><NavLink to="/project-2" >
-                <ul> <li className="color-button">Projet 2</li></ul>    
+                <ul> <li >Projet 2</li></ul>    
                 </NavLink></div>
                 <div className="projet-3 button-home ">  <NavLink to="/project-3"  >
-                <ul> <li className="color-button">Projet 3</li></ul>   
+                <ul> <li >Projet 3</li></ul>   
             </NavLink></div>
             <div className="projet-4 button-home" >  <NavLink to="/project-4"  >
-            <ul> <li className="color-button">Projet 4</li></ul>   
+            <ul> <li >Projet 4</li></ul>   
                 </NavLink></div>
-                <div className="contact1 button-home" > <NavLink to="/contact" >
-                <ul> <li className="color-button"> Contact</li></ul>   
+                <div className=" contact1 " > <NavLink to="/contact" >
+                <ul> <li> Me contacter</li></ul>   
             </NavLink></div>
             <div className="paul">
                <img src=".././public/assets/img/projet-2.jpg" alt="" />

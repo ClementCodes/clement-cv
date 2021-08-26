@@ -4,31 +4,26 @@ import CopyToClipboard from 'react-copy-to-clipboard';
 import ButtonsScroll from '../components/Buttons-scroll';
 import Formulaire from '../components/Formulaire';
 import Navbar from '../components/Navbar';
-
-
 import SocialNetwork from '../components/SocialNetworks';
+
+
+
 
 const Contact = () => {
     return (
         <main >
               
             <div className="contact">
+          
                 <Navbar />
-                
                 <br />
-                <div className="contact-infos">
-                    <div className="adress">
-                        <div className="content">
-                            <h4>email</h4>
-                            <h4>adresse</h4>
-                            <p> 16 rue Furtado</p>
-                            <p>Bordeaux</p>
-                            <h4>Telephone</h4>
-                          
-                        </div>
-                    </div>
-                </div>
+                <br />
+                <SocialNetwork />
+               
+              
+            
                 <div className="phone">
+               
                     <div className="content">
                         <CopyToClipboard text="06 71 77 81 35" >
                             <h3 style={{ cursor: "pointer" }}
@@ -50,12 +45,12 @@ const Contact = () => {
                                     alert("Email copié  !");
                                 }} >  Mrdominiqueclement@gmail.com</h3>
                         </CopyToClipboard>
-                        <SocialNetwork />
+                     
                         <Formulaire />
                     </div>
                 </div>
                 <div>
-        <ButtonsScroll left={'/project-4'} /></div>
+        <ButtonsScroll left={'/project-4'} />Scroll</div>
             </div>
            
         

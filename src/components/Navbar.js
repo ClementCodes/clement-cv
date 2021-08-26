@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 
+
 const Navbar = () => {
 
 
@@ -31,7 +32,7 @@ const Navbar = () => {
     },[])
     return (
         <nav  >
-          
+      
             {(toggleMenu || largeur > 500) && (   
                 <ul className="liste">
                     <NavLink to="/" exact >
