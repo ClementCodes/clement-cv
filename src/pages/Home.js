@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Header from '../components/Header';
-
+// import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 
 
 
@@ -10,32 +10,65 @@ const Home = () => {
   
     return (
         <div className="home ">
+         <div>
+        <Navbar>
+                </Navbar>
+                </div>
+  
+            <div className="item">
+            
+                {/* <div className="header"><Header /> */}
+            </div>
+                
+            <NavLink to="/projetFlag" >
+                <div className="button-project" >
+                    <div className="button" >Projet React sur API REST</div>
+                 
+                    <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
+                      
+                </div>
+            </NavLink>
+            <NavLink to="/project-2" >
+                <div className="button-project" >
+                    <div className="button" >Projet MERN </div>
+                 
+                    <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
+                      
+                </div>
+            </NavLink>
+            
+         
+            <NavLink to="/project-4"  >
+                <div className="button-project" >
+
+                    <div className="button" >Projet PHP CRUD </div>
+                    <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
+                </div>
+            </NavLink>
+            <a href="https://typescript-app-34e74.web.app/pokemons/"  >
+                <div className="button-project" >
+
+                    <div className="button" >Projet React CRUD Typescript</div>
+                    
+                    <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
+                </div>
+            </a>
+            <NavLink to="/contact"  >
+                <div className="button-project" >
+
+                    <div className="button" >Page contact</div>
+                    
+                    <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
+                </div>
+            </NavLink>
            
-            <div className="header"><Header />
-            </div>
-          
-                <div className="projet-flag button-home ">
-                    <NavLink to="/projetFlag" >
-                      <ul> <li >Projet  REACT</li></ul>  
-                    </NavLink></div>
-                <div className="projet-2 button-home "><NavLink to="/project-2" >
-                <ul> <li >Projet  MERN</li></ul>    
-                </NavLink></div>
-                <div className="projet-3 button-home ">  <NavLink to="/project-3"  >
-                <ul> <li >Projet 3</li></ul>   
-            </NavLink></div>
-            <div className="projet-4 button-home" >  <NavLink to="/project-4"  >
-            <ul> <li >Projet PHP</li></ul>   
-                </NavLink></div>
-                <div className=" contact1 " > <NavLink to="/contact" >
-                <ul> <li> Me contacter</li></ul>   
-            </NavLink></div>
+
             <div className="paul">
-               <img src=".././public/assets/img/projet-2.jpg" alt="" />
+                <img src=".././public/assets/img/projet-2.jpg" alt="" />
             </div>
-          
         </div>
+       
     );
-};
+}
 
 export default Home;

@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
 $background: #ffffff;
 $texte: white;
 $black: black;
@@ -15,12 +12,14 @@ $initial-color: rgb(179, 42, 40);
   outline: none;
   border: none;
   text-decoration: none;
+  font-size: 13px;
 }
 
 body {
   background-color: $background;
-  font-family: "Josefin Sans", sans-serif;
-  color: $texte;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
   overflow: visible;
 }
 

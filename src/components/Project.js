@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { projectsData } from '../data/projectsData';
 import { motion } from 'framer-motion';
-import { Project4 } from '../pages/ProjectPage';
+
 
 
 const Project = (props) => {
@@ -52,7 +52,7 @@ const Project = (props) => {
     const [currentProject] = useState(projectsData);
 
     const project = currentProject[props.projectNumber];
-  console.log(project);
+  
 
   
     return (
