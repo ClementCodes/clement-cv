@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/clement-cv/static/css/main.58b8dc97.chunk.css",
-    "main.js": "/clement-cv/static/js/main.d0dde30f.chunk.js",
-    "main.js.map": "/clement-cv/static/js/main.d0dde30f.chunk.js.map",
+    "main.css": "/clement-cv/static/css/main.36d9827f.chunk.css",
+    "main.js": "/clement-cv/static/js/main.7d0a1f16.chunk.js",
+    "main.js.map": "/clement-cv/static/js/main.7d0a1f16.chunk.js.map",
     "runtime-main.js": "/clement-cv/static/js/runtime-main.b7ad6591.js",
     "runtime-main.js.map": "/clement-cv/static/js/runtime-main.b7ad6591.js.map",
     "static/js/2.b4a2336a.chunk.js": "/clement-cv/static/js/2.b4a2336a.chunk.js",
     "static/js/2.b4a2336a.chunk.js.map": "/clement-cv/static/js/2.b4a2336a.chunk.js.map",
     "index.html": "/clement-cv/index.html",
-    "static/css/main.58b8dc97.chunk.css.map": "/clement-cv/static/css/main.58b8dc97.chunk.css.map",
+    "static/css/main.36d9827f.chunk.css.map": "/clement-cv/static/css/main.36d9827f.chunk.css.map",
     "static/js/2.b4a2336a.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.b4a2336a.chunk.js.LICENSE.txt",
     "static/media/github.ca70341b.png": "/clement-cv/static/media/github.ca70341b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b7ad6591.js",
     "static/js/2.b4a2336a.chunk.js",
-    "static/css/main.58b8dc97.chunk.css",
-    "static/js/main.d0dde30f.chunk.js"
+    "static/css/main.36d9827f.chunk.css",
+    "static/js/main.7d0a1f16.chunk.js"
   ]
 }
