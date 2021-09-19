@@ -16,8 +16,8 @@ export const projectsData = [
         date: "Mars 2021",
         languages: ["Express", "React","MongoDb"],
         infos:
-            "Voici un projet avec systeme de crud, une base de donnée mongodb avec systeme d'authentification",
-        img: "./assets/img/react.png",
+            "Voici un projet avec systeme de crud, une base de donnée mongodb et systeme d'authentification",
+        img: "./assets/img/mern.png",
         link: "https://rocky-plains-40656.herokuapp.com/#/",
     },
     {
@@ -44,7 +44,7 @@ export const projectsData = [
         title: "My cave, CRUD",
         date: "Avril 2021",
         languages: ["Js", "Php","MySql"],
-        infos: "Systeme de stock, réalisé en php  avec un systeme de crud pour la base de donée avec mySql et pour le front en bootstrap(4) et javascript",
+        infos: "Systeme de stock de bouteille de vins, réalisé en php  avec un systeme de crud pour la base de donée avec mySql et pour le front en bootstrap(4) et javascript",
         img: "./assets/img/my_cave.png",
         link: "https://projetcave.000webhostapp.com/",
     },
