@@ -3,23 +3,6 @@ $color-2: #f7f7f7;
 $color-3: #282c34;
 $color-4: rgb(32, 35, 42);
 
-input {
-  cursor: pointer;
-}
-.cancel {
-  padding-left: 30px;
-  margin: auto;
-  background-color: #f7f7f7;
-  width: 150px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.cancel:hover {
-  margin: auto;
-  background-color: #5d87a75f;
-  color: #f7f7f7;
-}
-
 .card {
   height: 100px;
   position: relative;
@@ -88,5 +71,30 @@ input {
         color: $color-1;
       }
     }
+  }
+
+  input {
+    cursor: pointer;
+  }
+  .cancel {
+    padding-left: 30px;
+    margin: auto;
+    background-color: #f7f7f7;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cancel:hover {
+    margin: auto;
+    background-color: #5d87a75f;
+    color: #f7f7f7;
+  }
+}
+
+.countries {
+  p {
+    color: gray;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }

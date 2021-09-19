@@ -11,15 +11,10 @@ const Projet = () => {
         <div>
             <Navbar />
             <br />
-            <br />
-            <br /> <div className="countries"><p>Ici un projet en REACT avec une api rest qui references les drapeaux du monde ( pas tous) avec une methode axios simple </p></div>
-            
-           
-            <br />
-            <br />
-            <br />
-            <Pays />
-            <div className="countries"></div>
+            <div className="countries"><p>             Ici un projet en REACT avec une api rest qui références les drapeaux du monde ( pas tous) avec une méthode venant du module axios .
+Il est possible de faire défiler le nombre de drapeaux avec le curseur juste en dessous afin de définir le nombre de drapeaux de chaque continent que l'on souhaite visualiser.
+<br />
+</p> <Pays /></div>
         
 
         </div>
