@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clement-cv/static/css/main.0bb33877.chunk.css",
+    "main.css": "/clement-cv/static/css/main.3b826544.chunk.css",
     "main.js": "/clement-cv/static/js/main.0a460369.chunk.js",
     "main.js.map": "/clement-cv/static/js/main.0a460369.chunk.js.map",
     "runtime-main.js": "/clement-cv/static/js/runtime-main.b7ad6591.js",
@@ -8,7 +8,7 @@
     "static/js/2.b4a2336a.chunk.js": "/clement-cv/static/js/2.b4a2336a.chunk.js",
     "static/js/2.b4a2336a.chunk.js.map": "/clement-cv/static/js/2.b4a2336a.chunk.js.map",
     "index.html": "/clement-cv/index.html",
-    "static/css/main.0bb33877.chunk.css.map": "/clement-cv/static/css/main.0bb33877.chunk.css.map",
+    "static/css/main.3b826544.chunk.css.map": "/clement-cv/static/css/main.3b826544.chunk.css.map",
     "static/js/2.b4a2336a.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.b4a2336a.chunk.js.LICENSE.txt",
     "static/media/github.ca70341b.png": "/clement-cv/static/media/github.ca70341b.png",
     "static/media/ts-react.a3a26c92.png": "/clement-cv/static/media/ts-react.a3a26c92.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.b7ad6591.js",
     "static/js/2.b4a2336a.chunk.js",
-    "static/css/main.0bb33877.chunk.css",
+    "static/css/main.3b826544.chunk.css",
     "static/js/main.0a460369.chunk.js"
   ]
 }
