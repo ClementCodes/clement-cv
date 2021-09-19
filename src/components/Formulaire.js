@@ -13,7 +13,7 @@ const Formulaire = () => {
         let regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
 
 
-        //pour valide rune regex  on valide avec match qui retourne un booleen en reponse donc
+        //pour valide une regex  on valide avec match qui retourne un booleen en reponse donc
 
         if (email.match(regex)) {
 
