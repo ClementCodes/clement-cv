@@ -54,7 +54,7 @@ const Pays = () => {
             <div className="pays">
                 <div className="sort-countainer">
 
-                    <input type="range" min="1" max="250" value={rangeValue} onChange={(e) => setRangeValue(e.target.value)} />
+                    <input  type="range" min="1" max="250" value={rangeValue} onChange={(e) => setRangeValue(e.target.value)} />
 
                     <ul>
                         {radios.map((radio) => {

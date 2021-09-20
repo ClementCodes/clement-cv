@@ -71,11 +71,11 @@ $color-4: rgb(32, 35, 42);
         color: $color-1;
       }
     }
+    .input {
+      cursor: pointer;
+    }
   }
 
-  input {
-    cursor: pointer;
-  }
   .cancel {
     padding-left: 30px;
     margin: auto;
@@ -96,5 +96,10 @@ $color-4: rgb(32, 35, 42);
     color: gray;
     margin-left: 3%;
     margin-right: 3%;
+  }
+  .sort-countainer {
+    input {
+      margin-left: 20%;
+    }
   }
 }

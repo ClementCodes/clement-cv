@@ -14,6 +14,8 @@ const Home = () => {
             <div>
                 <Navbar>
                 </Navbar>
+                <br />
+                
             </div><div className="projet">
             <NavLink to="/projetFlag" >
                 <div className="button-project" >
