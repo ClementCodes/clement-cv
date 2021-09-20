@@ -22,7 +22,7 @@ const Contact = () => {
                                 className="clipboard"
                                 onClick={() => {
                                     alert("telephone copié  !");
-                                }} > 06 71 77 81 35 . </h3>
+                                }} > 06 71 77 81 35  </h3>
                         </CopyToClipboard>
                     </div>
                 </div>

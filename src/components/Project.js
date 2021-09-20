@@ -75,7 +75,7 @@ const Project = (props) => {
         initial="initial"
         animate="visible"
         variants={imgAnim}
-        transition={{duration: 1.2}}
+        transition={{duration: 2.2}}
       >
                 <div className="img-container hover">
                     <span>
@@ -88,7 +88,7 @@ const Project = (props) => {
                 </div>
                 <div className="button-container">
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover">
-                        <span className="button">Voir le site</span>
+                  <span className="button">Voir le site</span>
                     </a>
                     </div>
                     </motion.div>
