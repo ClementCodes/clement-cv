@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 const Formulaire = () => {
     const [name, setName] = useState("");
+
     const [company, setCompany] = useState("");
+    
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
