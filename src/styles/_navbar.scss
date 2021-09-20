@@ -45,9 +45,7 @@ nav {
       width: 20vw;
       align-items: center;
 
-      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-        rgba(30, 26, 109, 0.65) 0px 4px 6px -1px,
-        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      box-shadow: $shadow-button;
       border-width: 1px;
       border-radius: 5px;
       color: $color-p-nav;
@@ -66,7 +64,7 @@ nav {
     padding-left: 5px;
     padding-right: 5px;
     background-color: $button-nav;
-    box-shadow: $shadow-button;
+    box-shadow: $shadow-button, $shadow-bas;
     border-width: 1px;
     border-radius: 5px;
   }
@@ -91,11 +89,14 @@ nav {
       transform: translate(-50%, +50%);
       font-size: 13px;
       display: inline;
-      background-color: $background-liste;
-      box-shadow: $shadow-button;
+      background-color: $li-nav;
+      box-shadow: 1px 10px 20px 1px rgb(184, 176, 176),
+        rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
       border-width: 1px;
       border-radius: 5px;
-      color: $li-nav;
+      color: rgb(232, 226, 226);
     }
     .li-nav ::after {
       content: "";
