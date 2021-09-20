@@ -1,22 +1,15 @@
 nav {
   width: 100vw;
   display: flex;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 62%,
-    rgba(69, 77, 71, 1) 100%
-  );
+  background: $background-nav;
   flex-direction: column;
+
   .h1 {
     display: flex;
     padding-left: 2px;
     padding-right: 2px;
-    color: white;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #1c1f35;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
       rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
       rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -25,10 +18,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     h1 {
-      background-color: #1c1f35;
-      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-        rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
-        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      box-shadow: $shadow-button;
       border-width: 1px;
       border-radius: 5px;
     }
@@ -37,13 +27,16 @@ nav {
   .p-body {
     padding-left: 5px;
     padding-right: 5px;
-    color: ivory;
+    color: $couleur-p;
     li {
-      color: ivory;
+      color: $color-p-nav;
     }
     a {
-      color: ivory;
+      color: $color-p-nav;
       text-align: center;
+    }
+    .li-big {
+      color: black;
     }
     .contactez-moi {
       display: flex;
@@ -52,12 +45,12 @@ nav {
       width: 20vw;
       align-items: center;
 
-      background-color: #1c1f35;
       box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-        rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
+        rgba(30, 26, 109, 0.65) 0px 4px 6px -1px,
         rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
       border-width: 1px;
       border-radius: 5px;
+      color: $color-p-nav;
 
       img {
         height: 100%;
@@ -69,40 +62,40 @@ nav {
     }
   }
   .button {
-    color: rgb(218, 223, 213);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #1c1f35;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-      rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
-      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: $button-nav;
+    box-shadow: $shadow-button;
     border-width: 1px;
     border-radius: 5px;
   }
   .liste {
-    height: 12vh;
+    background: $background-liste;
+    height: 4vh;
     display: flex;
     list-style-type: none;
     color: rgb(218, 223, 213);
     border-radius: 10px;
     justify-content: space-between;
-    padding-top: 5vh;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(87, 129, 155, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-width: 1px;
+    border-radius: 5px;
 
     .li-nav {
-      color: white;
-
       padding-left: 5px;
       padding-right: 5px;
       transform: translate(-50%, +50%);
       font-size: 13px;
       display: inline;
-      background-color: #1c1f35;
-      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-        rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
-        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      background-color: $background-liste;
+      box-shadow: $shadow-button;
       border-width: 1px;
       border-radius: 5px;
+      color: $li-nav;
     }
     .li-nav ::after {
       content: "";
@@ -124,6 +117,9 @@ nav {
     width: 35vw;
     justify-content: space-between;
     align-items: center;
+    span {
+      color: rgb(252, 252, 252);
+    }
 
     img {
       height: 100%;
@@ -139,42 +135,26 @@ nav {
     font-size: 20px;
   }
   nav {
-    background: rgb(233, 224, 224);
+    .p-body {
+      margin: 0 10%;
 
-    .liste .li-nav {
-      color: rgb(238, 238, 238);
+      .h1 {
+        margin-left: -5%;
+        margin-right: -5%;
+      }
     }
-    p {
-      color: rgb(8, 9, 9);
-    }
-    .p-body .li-big {
-      color: black;
-    }
-  }
-  .p-body {
-    margin: 0 10%;
+    .liste {
+      padding-left: 1%;
+      padding-right: 1%;
 
-    li {
-      color: black;
-    }
-    .h1 {
-      margin-left: -5%;
-      margin-right: -5%;
-    }
-  }
-  .liste {
-    padding-left: 1%;
-    padding-right: 1%;
+      margin: 0 +5% 0 +5%;
+      font-size: 30px !important;
 
-    margin: 0 +5% 0 +5%;
-    font-size: 30px !important;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-      rgba(87, 129, 155, 0.65) 0px 4px 6px -1px,
-      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    border-width: 1px;
-    border-radius: 5px;
-    li {
-      font-size: 25px !important;
+      border-width: 1px;
+      border-radius: 5px;
+      li {
+        font-size: 25px !important;
+      }
     }
   }
 }

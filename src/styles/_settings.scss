@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
-$background: #ffffff;
-$texte: white;
+$initial-color: rgb(169, 131, 130);
 $black: black;
-$texte: #5e97ba;
-$initial-color: rgb(179, 42, 40);
+
+$button-nav: #1c1f35;
+$couleur-p: black;
+$color-p-nav: white;
+$background-nav: #f3f2ef;
+
+$shadow-button: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+  rgba(188, 201, 45, 0.65) 0px 4px 6px -1px,
+  rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+$shadow-bas: 1px 10px 20px 1px rgb(184, 176, 176);
+$background-liste: rgb(242, 235, 235);
+$li-nav: rgb(62, 35, 35);
+$background-bas: rgb(242, 235, 235);
 
 * {
   text-decoration: none;
@@ -16,7 +27,6 @@ $initial-color: rgb(179, 42, 40);
 }
 
 body {
-  background-color: $background;
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;

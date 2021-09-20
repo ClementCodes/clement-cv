@@ -6,6 +6,7 @@
   }
   .button-project {
     border: 1px solid #f9eded;
+    box-shadow: $shadow-bas;
     border-radius: 10px;
     display: flex;
     align-items: baseline;
@@ -22,7 +23,7 @@
     }
   }
   .button {
-    color: #c5bcbe;
+    color: #010101;
   }
   .plus {
     color: #c5bcbe;
@@ -36,19 +37,15 @@
     border-radius: 5px;
   }
   .grey {
-    color: #c5bcbe;
+    color: white;
   }
 }
 
 @media (min-width: 700px) {
-  .home {
-    background: rgb(233, 224, 224);
-  }
   * {
     font-size: 20px;
   }
   .button-project {
     margin: 0 10% 0 10%;
-    background: white;
   }
 }
