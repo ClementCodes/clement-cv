@@ -4,7 +4,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import gitHub from "../assets/github.png"
 import mail from "../assets/mail.png"
-
+import ReactScrollableFeed from 'react-scrollable-feed';
 // import { projectsData } from '../data/projectsData';
 
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                     
                    
                         <NavLink className="contactez-moi " activeClassName="liste-nav-active-2"   to="/contact" >              
-                             Contact
+            
                             <img src={mail} alt="" /> 
                         </NavLink>
                         <div>
@@ -56,10 +56,13 @@ const Navbar = () => {
 
       
             <div className="liste" >
-           
-                <NavLink to="/"  className=" li-nav " activeClassName="liste-nav-active" exact >
+           <ReactScrollableFeed>
+         
+                <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact >
+            
                    Acceuil 
                 </NavLink>
+                </ReactScrollableFeed>
                 <NavLink  className=" li-nav "  activeClassName="liste-nav-active" to="/projetflag"  >
                     Projet React 
                 </NavLink>
