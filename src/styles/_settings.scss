@@ -25,7 +25,10 @@ $background-bas: rgb(242, 235, 235);
   text-decoration: none;
   font-size: 15px;
 }
-
+html {
+  scroll-behavior: smooth;
+  height: 200vh;
+}
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;

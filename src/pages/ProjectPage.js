@@ -32,9 +32,9 @@ export const Project4 = () => {
     
     return (
         <main>
-            <div className="project">
+            <div  className="project">
                 <Navbar />
-                <Project projectNumber={3} />     
+                <Project id="der" projectNumber={3} />     
             </div>
         </main>
     )

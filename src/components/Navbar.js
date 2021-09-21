@@ -16,14 +16,15 @@ const Navbar = () => {
     return (
         <nav  >
             <div className="p-body">    
-                <div className="h1 button"  >
-                    <NavLink to="/"><h1 className="header-home" >Clément <span className="title-cv" > PORTFOLIO</span> </h1></NavLink>
+                <div className="liste1 "   >
+                    <NavLink to="/"  className="li-nav1"    >Clément  PORTFOLIO</NavLink>
                     
-                    <div>
-                        <NavLink className="contactez-moi button-cv" to="/contact" >              
-                            <span> Contact</span>
+                   
+                        <NavLink className="contactez-moi " activeClassName="liste-nav-active-2"   to="/contact" >              
+                             Contact
                             <img src={mail} alt="" /> 
                         </NavLink>
+                        <div>
                     </div>         
                 </div>
                 <br />
@@ -48,7 +49,7 @@ const Navbar = () => {
                 <br />
                 <br />
 
-                <p>Ce Portfolio est en  cours de réalisation notamment la partie desktop .... mais si vous voyez des choses à améliorer merci de me contacter sur la page dédiée à cet effet ce sera avec grand plaisir </p>
+                <p>Ce Portfolio est en  cours de réalisation notamment la page "home" pour le style .... mais si vous voyez des choses à améliorer merci de me contacter sur la page dédiée à cet effet ce sera avec grand plaisir </p>
                 <br />
                
             </div>
@@ -56,20 +57,20 @@ const Navbar = () => {
       
             <div className="liste" >
            
-                <NavLink to="/" exact >
-                    <li className="li-nav">Acceuil </li>
+                <NavLink to="/"  className=" li-nav " activeClassName="liste-nav-active" exact >
+                   Acceuil 
                 </NavLink>
-                <NavLink to="/projetflag"  >
-                    <li className="li-nav">Projet React </li>
+                <NavLink  className=" li-nav "  activeClassName="liste-nav-active" to="/projetflag"  >
+                    Projet React 
                 </NavLink>
-                <NavLink to="/project-2" >
-                    <li className="li-nav"> Porjet MERN </li>
+                <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-2" >
+                 Porjet MERN
                 </NavLink>
-                <NavLink to="/project-3" >
-                    <li className="li-nav">TypeScript </li>
+                <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" >
+                   TypeScript 
                 </NavLink>
-                <NavLink to="/project-4" >
-                    <li className="li-nav">Projet PHP </li>
+                <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4" >
+                   Projet PHP 
                 </NavLink>
                 {/* <NavLink to="/contact" >
                     <li className="li-nav">Contact</li>

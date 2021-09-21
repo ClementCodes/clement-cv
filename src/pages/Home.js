@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import react from "../assets/react.png"
 import types from "../assets/ts-react.png"
-
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -29,24 +29,24 @@ const Home = () => {
                     <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
                 </div>
             </NavLink>
-            <NavLink to="/project-4"  >
+            <Link  href="der" to="/project-4"  >
                 <div className="button-project" >
                     <div className="button" >Projet PHP CRUD </div>
                     <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
                 </div>
-            </NavLink>
-            <a href="https://typescript-app-34e74.web.app/pokemons/"  >
+            </Link>
+            <Link  href="der" to="/project-3"  >
                 <div className="button-project" >
                     <div className="button" >Projet React CRUD Typescript<img className="types" src={types} alt="logo-react" /></div>
                     <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
                 </div>
-            </a>
-            <NavLink to="/contact"  >
+                </Link>
+            <Link  to="/contact"  >
                 <div className="button-project" >
                     <div className="button" >Page contact</div>
                     <div className="plus"> <span className="grey">|</span> Plus d'informations</div>
                 </div>
-            </NavLink>
+            </Link>
            
                 </div>
         </div>
