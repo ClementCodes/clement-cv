@@ -62,7 +62,7 @@ const Navbar = () => {
             
                    Acceuil 
                 </NavLink>
-                </ReactScrollableFeed>
+              
                 <NavLink  className=" li-nav "  activeClassName="liste-nav-active" to="/projetflag"  >
                     Projet React 
                 </NavLink>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 {/* <NavLink to="/contact" >
                     <li className="li-nav">Contact</li>
                 </NavLink> */}
-         
+           </ReactScrollableFeed>
             </div>
            
        
