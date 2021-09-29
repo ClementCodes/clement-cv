@@ -50,7 +50,7 @@ const Navbar = () => {
                 <br />
                 <br />
 
-                <p>Ce Portfolio est en  cours de réalisation notamment la page "home" pour le style .... mais si vous voyez des choses à améliorer merci de me contacter sur la page dédiée à cet effet ce sera avec grand plaisir </p>
+                <p>Ce Portfolio est en  cours de réalisation notamment la page "Home" pour le style .... mais si vous voyez des choses à améliorer merci de me contacter sur la page dédiée à cet effet ce sera avec grand plaisir </p>
                 <br />
                
             </div>

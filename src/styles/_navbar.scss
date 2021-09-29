@@ -17,11 +17,11 @@ nav {
     }
 
     .liste1 {
-      background: #1c1f35;
+      background: #dcd9d4;
       height: 4vh;
       display: flex;
       list-style-type: none;
-      color: rgb(218, 223, 213);
+      color: rgb(250, 220, 220);
       border-radius: 10px;
       box-shadow: $shadow-button;
       align-items: center;
@@ -29,7 +29,7 @@ nav {
       border-radius: 5px;
       margin-left: 5px;
       margin-right: 5px;
-      padding-left: 2px;
+      padding-left: 12px;
       padding-right: 2px;
       justify-content: space-between;
       img {
@@ -41,7 +41,7 @@ nav {
       .contactez-moi {
         margin-left: auto;
         display: flex;
-        height: 6vw;
+        height: 90%;
         width: 22vw;
 
         box-shadow: $shadow-button;
@@ -49,9 +49,10 @@ nav {
         border-radius: 5px;
         background-color: $li-nav;
 
-        color: blanchedalmond;
+        color: rgb(250, 250, 250);
         align-items: center;
         justify-content: space-around;
+        margin-right: 12px;
       }
       .li-nav1 {
         padding-left: 5px;
@@ -144,15 +145,21 @@ nav {
   nav {
     .p-body {
       margin: 0 10%;
+      p {
+        margin: 0 10%;
+      }
 
       .h1 {
         margin-left: -5%;
         margin-right: -5%;
       }
     }
+
+    .githb,
     .liste {
       font-size: 30px !important;
-
+      margin: 1% 10%;
+      padding: 1% 5%;
       .li-nav {
         font-size: 25px !important;
       }
