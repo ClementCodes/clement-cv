@@ -12,7 +12,7 @@ import SocialNetwork from '../components/SocialNetworks';
 const Contact = () => {
     return (
         <main >
-            <div className="contact">
+            <div className="page-form">
                 <Navbar />
                 <SocialNetwork />
                 <div className="phone">

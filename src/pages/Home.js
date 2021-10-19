@@ -4,19 +4,34 @@ import { NavLink } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import react from "../assets/react.png"
 import types from "../assets/ts-react.png"
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import Slideshow from '../components/SlideShow';
+
 
 
 const Home = () => {
   
     return (
         <div className="home ">
+         
+   
+
+             
+
             <div>
-                <Navbar>
-                </Navbar>
+                
+                <Navbar />
+            
+               
                 <br />
                 
-            </div><div className="projet">
+            </div>
+            <div className="containerSlide">
+                <Slideshow/>
+</div>
+
+
+          <div className="projet">
             <NavLink to="/projetFlag" >
                 <div className="button-project" >
                     <div className="button" >Projet React sur API REST<img src={react} alt="logo-react" /></div>

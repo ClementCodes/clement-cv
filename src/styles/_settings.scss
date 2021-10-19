@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
-$initial-color: rgb(169, 131, 130);
+$initial-color: black;
 $black: black;
 
-$button-nav: rgb(169, 131, 130);
-$couleur-p: black;
+$button-nav: #39c394;
+$couleur-p: white;
 $color-p-nav: white;
-$background-nav: #dcd9d4;
+$background-nav: black;
 
 $shadow-button: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
   rgba(188, 201, 45, 0.65) 0px 3px 5px -1px,
   rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
-$shadow-bas: 1px 10px 20px 1px rgb(184, 176, 176);
-$background-liste: #dcd9d4;
-$li-nav: rgb(185, 127, 109);
-$background-bas: rgb(242, 235, 235);
+$shadow-bas: 1px 10px 20px 1px rgb(49, 65, 52);
+$background-liste: black;
+$li-nav: #39c394;
+$background-bas: black;
 
 * {
   text-decoration: none;
