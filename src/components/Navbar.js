@@ -53,40 +53,48 @@ const Navbar = () => {
             </div>
             
 
-            <Element name="scroll-container-first-element" >
-            <div className="liste" >
-      
-           
-                <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact onClick={() => scroll.scrollToBottom()} >
-            
-                   Acceuil 
-                </NavLink>
-              
-                <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/projetflag" onClick={() => scroll.scrollToBottom()} >
-             
-                Projet React 
          
-                    
-                </NavLink>
-                <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/project-2" onClick={() => scroll.scrollToBottom()} >
-                    
-                 Porjet MERN
-                </NavLink>
-                <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" onClick={() => scroll.scrollToBottom()}>
-                   TypeScript 
-                </NavLink>
-                <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4"onClick={() => scroll.scrollToBottom()} >
-                   Projet PHP 
-                </NavLink>
-                {/* <NavLink to="/contact" >
-                    <li className="li-nav">Contact</li>
-                </NavLink> */}
-      
-            </div>
-            </Element>
        
         </nav>
     );
 }
 
+
+
+
+
+
+
 export default Navbar;
+
+{/* <Element name="scroll-container-first-element" >
+<div className="liste" >
+
+
+    <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact onClick={() => scroll.scrollToBottom()} >
+
+       Acceuil 
+    </NavLink>
+  
+    <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/projetflag" onClick={() => scroll.scrollToBottom()} >
+ 
+    Projet React 
+
+        
+    </NavLink>
+    <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/project-2" onClick={() => scroll.scrollToBottom()} >
+        
+     Porjet MERN
+    </NavLink>
+    <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" onClick={() => scroll.scrollToBottom()}>
+       TypeScript 
+    </NavLink>
+    <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4"onClick={() => scroll.scrollToBottom()} >
+       Projet PHP 
+    </NavLink>
+    {/* <NavLink to="/contact" >
+        <li className="li-nav">Contact</li>
+    </NavLink> */}
+
+    // </div>
+// </Element> */}

@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <main >
             <div className="page-form">
-                <Navbar />
+              
                 <SocialNetwork />
                 <div className="phone">
                     <div className="content">

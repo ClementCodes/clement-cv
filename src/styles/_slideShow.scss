@@ -1,17 +1,72 @@
-.each-slide > div {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 350px;
-}
+.slideShow {
+  height: 85vw;
+  p {
+    margin-left: 10%;
+  }
+  .each-slide > div {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
 
-.each-slide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+    box-shadow: 1px 3px 3px 3px #faf4f4;
+
+    border: 3px solid rgb(237, 233, 233);
+    border-radius: 15px;
+    display: flex;
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .each-slide .projSlide {
+    width: 100%;
+    margin-top: 70%;
+    padding: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    text-align: center;
+  }
+
+  .eachsSlide .button {
+    width: 60vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    padding-bottom: 2%;
+  }
+  .button {
+    color: #010101;
+  }
+  .plus {
+    margin: auto;
+    width: 50vw;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #39c394;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-top: 5%;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .grey {
+    color: white;
+  }
+}
+@media (min-width: 700px) {
+  * {
+    font-size: 20px;
+  }
+  .button-project {
+    margin: 0 10% 0 10%;
+  }
 }

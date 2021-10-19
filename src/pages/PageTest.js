@@ -8,15 +8,13 @@ import React from 'react';
 
 // import ImportDestruct from '../components/destructuring/ImportDestruct';
 
-import Slideshow from '../components/SlideShow';
-
 // import Todo from '../components/todo/Todo';
 
 const PageTest = () => {
     return (
   
 
-<Slideshow/>
+    <p>hello</p>
 
       
     );
