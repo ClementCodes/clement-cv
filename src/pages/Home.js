@@ -12,11 +12,15 @@ import {  DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scrol
 
 
 
+
 const Home = () => {
   
     return (
         <div className="home ">
-            <div>            
+
+
+            <div>
+            
                 <Navbar />        
                 <br />            
             </div>

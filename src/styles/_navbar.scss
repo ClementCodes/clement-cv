@@ -1,9 +1,26 @@
 nav {
-  height: 40vw;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
+
+  ul .liste {
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .items {
+    margin-right: 1%;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn {
+    display: none;
+    font-size: 0.9rem;
+  }
 
   // z-index: 10;
   .p-body {
@@ -15,13 +32,13 @@ nav {
     box-sizing: border-box;
 
     .cercle {
-      height: 8vw;
+      height: 10vw;
       margin-right: 35%;
       margin-left: 41%;
-      margin-top: -5%;
+      margin-top: -7%;
       width: 35vw;
       img {
-        width: 110%;
+        width: 130%;
       }
     }
     .bienvenue {
@@ -68,13 +85,13 @@ nav {
         justify-content: space-around;
         margin-right: 2.5%;
         img {
-          height: 50%;
-          background-color: rgb(223, 208, 208);
-          border: 1px solid white;
-          border-radius: 10px;
+          height: 80%;
+          width: 40%;
         }
       }
       .li-nav1 {
+        position: absolute;
+        z-index: 3;
         padding-left: 5px;
         padding-right: 5px;
         font-size: 0.9rem;
@@ -112,8 +129,7 @@ nav {
   }
 
   .liste {
-    background: $background-liste;
-    height: 4vh;
+    height: 8vh;
     display: flex;
     list-style-type: none;
     color: rgb(218, 223, 213);
@@ -133,7 +149,7 @@ nav {
       color: rgb(232, 226, 226);
     }
     .liste-nav-active {
-      color: black;
+      color: rgb(118, 111, 111);
       background-color: white;
     }
   }
@@ -146,7 +162,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 1%;
-    border-radius: 3px;
+    border-radius: 5px;
     padding-left: 5%;
     padding-right: 5%;
     background-color: $button-nav;
@@ -176,7 +192,7 @@ nav {
 
     .content1 {
       padding: 14% 10% 10% 14%;
-      border-radius: 6px;
+      border-radius: 5px;
       background-color: #fafcfc;
       display: flex;
       margin-right: 20%;
@@ -197,7 +213,46 @@ nav {
     display: flex;
     justify-content: space-between;
   }
+
+  @media screen and (max-width: 500px) {
+    .btn-items {
+      background-color: #41a78a;
+      position: absolute;
+      color: white;
+      font-size: 2rem;
+      margin-top: 8%;
+      margin-left: 55%;
+      border-radius: 10px;
+    }
+    .liste {
+      z-index: 10;
+      flex-direction: column;
+    }
+    .items:nth-child(1) {
+      border-top: 1px solid whitesmoke;
+    }
+    .items {
+      font-family: "Montserrat Alternates", sans-serif;
+      backdrop-filter: blur(40px);
+      color: black;
+      text-align: center;
+      width: 100vw;
+      border-bottom: 1px solid #ffd;
+      line-height: 15vh;
+      font-size: 1.5rem;
+    }
+    .btn {
+      z-index: 12;
+      display: block;
+      position: absolute;
+      right: 10px;
+      font-size: 0.9rem;
+      color: rgb(162, 161, 161);
+      cursor: pointer;
+    }
+  }
 }
+
 @media (min-width: 700px) {
   * {
     font-size: 1.7rem;
