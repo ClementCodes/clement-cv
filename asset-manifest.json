@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clement-cv/static/css/main.38d7970e.chunk.css",
+    "main.css": "/clement-cv/static/css/main.aed5109b.chunk.css",
     "main.js": "/clement-cv/static/js/main.5beff31b.chunk.js",
     "main.js.map": "/clement-cv/static/js/main.5beff31b.chunk.js.map",
     "runtime-main.js": "/clement-cv/static/js/runtime-main.b7ad6591.js",
@@ -10,7 +10,7 @@
     "static/js/2.2246abc9.chunk.js.map": "/clement-cv/static/js/2.2246abc9.chunk.js.map",
     "index.html": "/clement-cv/index.html",
     "static/css/2.0ccb862f.chunk.css.map": "/clement-cv/static/css/2.0ccb862f.chunk.css.map",
-    "static/css/main.38d7970e.chunk.css.map": "/clement-cv/static/css/main.38d7970e.chunk.css.map",
+    "static/css/main.aed5109b.chunk.css.map": "/clement-cv/static/css/main.aed5109b.chunk.css.map",
     "static/js/2.2246abc9.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.2246abc9.chunk.js.LICENSE.txt",
     "static/media/cercle.ce3928fd.png": "/clement-cv/static/media/cercle.ce3928fd.png",
     "static/media/country.1acfdcfa.png": "/clement-cv/static/media/country.1acfdcfa.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.b7ad6591.js",
     "static/css/2.0ccb862f.chunk.css",
     "static/js/2.2246abc9.chunk.js",
-    "static/css/main.38d7970e.chunk.css",
+    "static/css/main.aed5109b.chunk.css",
     "static/js/main.5beff31b.chunk.js"
   ]
 }
