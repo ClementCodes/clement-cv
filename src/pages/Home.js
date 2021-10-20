@@ -29,9 +29,9 @@ const Home = () => {
                 <Slideshow />
               
             </div>
-            <Element name="test2" className="element">
+       
             <Formulaire/>
-        </Element>
+      
       <NavDown/>
             {/* <Contact/> */}
         </div>

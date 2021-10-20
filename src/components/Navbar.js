@@ -52,7 +52,7 @@ const Navbar = () => {
                     <NavLink to="/project-2" >        <li className="items">Projet React avec Typescript</li></NavLink>
                     <NavLink to="/project-3" >           <li className="items">Projet PHP CRUD</li></NavLink>
                     
-                                <a href="./assets/img/cv.jpg" target="_blank" >         <li className="items">CV</li>   </a>
+                                <a href="./assets/img/cv.jpg" target="_blank" >         <li className="items">CV</li></a>
                                 
                     <NavLink to="/formulaire" >          <li className="items">Contact</li></NavLink>
                     </ul>

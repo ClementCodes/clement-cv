@@ -1,8 +1,9 @@
 .contact-form {
+  border-radius: 5px 5px 5px 5px;
   margin-top: 15% !important;
   margin: 1rem auto 0;
-  max-width: 50%;
-  max-width: 350px;
+  max-width: 80%;
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1px solid #39c394;
   background: #363434;
@@ -133,5 +134,11 @@
     h3 {
       max-width: 375px;
     }
+  }
+}
+
+@media (min-width: 700px) {
+  .contact-form {
+    width: 110%;
   }
 }

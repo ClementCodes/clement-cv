@@ -71,3 +71,9 @@
     color: white;
   }
 }
+
+@media (min-width: 700px) {
+  .slideShow .button {
+    height: 9vh;
+  }
+}

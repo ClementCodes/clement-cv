@@ -30,6 +30,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
 
     .cercle {
       display: block;
@@ -166,7 +167,7 @@ nav {
     padding-right: 5%;
     background-color: $button-nav;
     font-family: $raleway;
-    margin-left: 179;
+    margin-left: 17%;
     color: white;
 
     img {
@@ -248,5 +249,13 @@ nav {
 @media (min-width: 700px) {
   * {
     font-size: 1.7rem;
+  }
+
+  nav .p-body .cercle img {
+    margin-top: 6%;
+  }
+
+  nav .p-body .troisTraits img {
+    visibility: hidden;
   }
 }
