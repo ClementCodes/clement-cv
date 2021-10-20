@@ -107,6 +107,7 @@ const Formulaire = () => {
     };
 
     return (
+        
         <form className="contact-form">
             <h2>Contactez-moi</h2>
             <div className="form-content">

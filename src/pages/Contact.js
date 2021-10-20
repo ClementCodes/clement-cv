@@ -4,7 +4,7 @@ import CopyToClipboard from 'react-copy-to-clipboard';
 // import ButtonsScroll from '../components/Buttons-scroll';
 import Formulaire from '../components/Formulaire';
 import Navbar from '../components/Navbar';
-import SocialNetwork from '../components/SocialNetworks';
+
 
 
 
@@ -12,9 +12,13 @@ import SocialNetwork from '../components/SocialNetworks';
 const Contact = () => {
     return (
         <main >
+           
             <div className="page-form">
-              
-                <SocialNetwork />
+                <br /><br /><br />
+                <br />
+                <br />
+                <br />
+            
                 <div className="phone">
                     <div className="content">
                         <CopyToClipboard text="06 71 77 81 35" >

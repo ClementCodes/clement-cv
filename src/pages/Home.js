@@ -24,6 +24,7 @@ const Home = () => {
                 <Slideshow />
               
             </div>
+          
             <Contact/>
         </div>
 

@@ -5,59 +5,53 @@ import { NavLink } from 'react-router-dom';
 import gitHub from "../assets/github.png"
 import mail from "../assets/mail.png"
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-// import { projectsData } from '../data/projectsData';
+import SocialNetwork from "../components/SocialNetworks";
 
 
 const Navbar = () => {
- 
-  
-  
+
+
+
 
     return (
         <nav  >
             <div className="p-body">
-            
                 <div className="liste1 "   >
-                    <NavLink to="/"  className="li-nav1"    >Clément  PORTFOLIO</NavLink>
-                        <div>
+                    <NavLink to="/" className="li-nav1"    >Clément  PORTFOLIO</NavLink>
+                    <div>
                     </div>
-                    <NavLink className="troisTraits " activeClassName="liste-nav-active-2"   to="/contact"onClick={() => scroll.scrollToBottom()} >              
-            Contact
-                            <img src={mail} alt="" /> 
-                        </NavLink>
+                    <NavLink className="troisTraits " activeClassName="liste-nav-active-2" to="/contact" onClick={() => scroll.scrollToBottom()} >
+                        <img src={mail} alt="" />
+                        Contact
+                    </NavLink>
                 </div>
-             
-            
-                <NavLink className="contactez-moi " activeClassName="liste-nav-active-2"   to="/contact"onClick={() => scroll.scrollToBottom()} >              
-            Contact
-                            <img src={mail} alt="" /> 
-                        </NavLink>
-            <div className="bienvenue">
-                        <span>         Bienvenue sur mon portfolio,   </span>   <p> Il est entièrement réalisé from scratch avec la librairie React, pour le style j’utilise le préprocesseur Sass avec flexbox</p>
-                        </div>
+                <div className="contact-reseaux">
+                <NavLink className="contactez-moi " activeClassName="liste-nav-active-2" to="/contact" onClick={() => scroll.scrollToBottom()} >
+                    <img src={mail} alt="" />
+                    Contact  
+                </NavLink>
+                <SocialNetwork />
+                </div>
+                <div className="bienvenue">
+                    <span>         Bienvenue sur mon portfolio,   </span>   <p> Il est entièrement réalisé from scratch avec la librairie React, pour le style j’utilise le préprocesseur Sass avec flexbox</p>
+                </div>
                 <a className="gitHub" href="https://github.com/ClementCodes">
-                    <div className="github button" >
-                        <span >Mon Github</span>
+                    <div className="github " >
                         <img src={gitHub} alt="" />
+                        <span >Mon Github</span>
                     </div>
                 </a>
                 <div className="button">
                     <a href="./assets/img/cv.jpg" target="_blank" >
-                        <li className="lien-cv"> Ici un lien  pour télécharger mon cv
+                        <li className="lien-cv">  mon cv
                         </li>
                     </a>
                 </div>
-              
-                <li className="li-big">  Au milieu de la page d'acceuil avec plusieurs liens de projets </li><br />
-                     
-            </div>
-            
 
-         
-       
+            </div>
         </nav>
-    );
-}
+    )
+};
 
 
 
