@@ -7,8 +7,8 @@ import types from "../assets/ts-react.png"
 import { Link } from 'react-router-dom'
 import Slideshow from '../components/SlideShow';
 import Formulaire from '../components/Formulaire';
-import Contact from './Contact';
-
+// import Contact from './Contact';
+import {  DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 
@@ -24,8 +24,11 @@ const Home = () => {
                 <Slideshow />
               
             </div>
-          
-            <Contact/>
+            <Element name="test2" className="element">
+            <Formulaire/>
+        </Element>
+      
+            {/* <Contact/> */}
         </div>
 
     );

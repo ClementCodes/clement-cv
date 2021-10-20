@@ -8,8 +8,9 @@ import NotFound from './pages/NotFound';
 import {  Switch, Route } from "react-router-dom";
 import ProjetFlag from './components/ProjetFlag';
 import {  Project2, Project3, Project4 } from './pages/ProjectPage';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import PageTest from './pages/PageTest';
+import Formulaire from './components/Formulaire';
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/projetflag" component={ProjetFlag} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Formulaire" component={Formulaire} />
         <Route exact path="/test" component={PageTest} />
 
         {/* <Route exact path="/project-1" component={Project1} /> */}

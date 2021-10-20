@@ -15,6 +15,7 @@ const Navbar = () => {
 
 
     return (
+        <Element name="scroll-container-first-element" >
         <nav  >
             <div className="p-body">
                 <div className="liste1 "   >
@@ -35,11 +36,14 @@ const Navbar = () => {
                      
                     </a>
                 </div>
-                <div className="contact-reseaux">
-                <NavLink className="contactez-moi " activeClassName="liste-nav-active-2" to="/contact" onClick={() => scroll.scrollToBottom()} >
+                
+                    <div className="contact-reseaux">
+                        
+                <Link className="contactez-moi " activeClassName="liste-nav-active-2" to="/Formulaire" onClick={() => scroll.scrollToBottom()} >
                     <img src={mail} alt="" />
                     Contact  
-                </NavLink>
+                </Link>
+                
                 <SocialNetwork />
                 </div>
                 <div className="bienvenue">
@@ -54,7 +58,8 @@ const Navbar = () => {
                
 
             </div>
-        </nav>
+            </nav>
+            </Element> 
     )
 };
 
@@ -66,34 +71,34 @@ const Navbar = () => {
 
 export default Navbar;
 
-{/* <Element name="scroll-container-first-element" >
-<div className="liste" >
+// <Element name="scroll-container-first-element" >
+// <div className="liste" >
 
 
-    <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact onClick={() => scroll.scrollToBottom()} >
+//     <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact onClick={() => scroll.scrollToBottom()} >
 
-       Acceuil 
-    </NavLink>
+//        Acceuil 
+//     </NavLink>
   
-    <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/projetflag" onClick={() => scroll.scrollToBottom()} >
+//     <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/projetflag" onClick={() => scroll.scrollToBottom()} >
  
-    Projet React 
+//     Projet React 
 
         
-    </NavLink>
-    <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/project-2" onClick={() => scroll.scrollToBottom()} >
+//     </NavLink>
+//     <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/project-2" onClick={() => scroll.scrollToBottom()} >
         
-     Porjet MERN
-    </NavLink>
-    <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" onClick={() => scroll.scrollToBottom()}>
-       TypeScript 
-    </NavLink>
-    <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4"onClick={() => scroll.scrollToBottom()} >
-       Projet PHP 
-    </NavLink>
-    {/* <NavLink to="/contact" >
-        <li className="li-nav">Contact</li>
-    </NavLink> */}
+//      Porjet MERN
+//     </NavLink>
+//     <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" onClick={() => scroll.scrollToBottom()}>
+//        TypeScript 
+//     </NavLink>
+//     <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4"onClick={() => scroll.scrollToBottom()} >
+//        Projet PHP 
+//     </NavLink>
+//    <NavLink to="/contact" >
+//         <li className="li-nav">Contact</li>
+//     </NavLink> 
 
-    // </div>
-// </Element> */}
+//      </div>
+//  </Element> 

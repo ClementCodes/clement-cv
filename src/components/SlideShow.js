@@ -18,9 +18,9 @@ const Slideshow = () => {
       <p className="un">Les projets  </p>
       <p className="deux">Du moment  </p>
 
-      <Slide easing="ease">
+      <Slide easing="ease" className="ease">
         <div className="each-slide">
-          <div style={{ 'backgroundImage': `url(${img1})` }}>
+          <div className="slide" style={{ 'backgroundImage': `url(${img1})` }}>
             <div className="projSlide">
               <NavLink to="/projetFlag" >
                 <div className="button-project" >
@@ -34,12 +34,11 @@ const Slideshow = () => {
         </div>
         
         <div className="each-slide">
-          <div style={{ 'backgroundImage': `url(${img2})` }}>
+          <div  className="slide"style={{ 'backgroundImage': `url(${img2})` }}>
             <div className="projSlide">
               <NavLink to="/project-2" >
                 <div className="button-project" >
                   <div className="button" >Projet MERN<img src={react} alt="logo-react" /></div>
-                 
                 </div>
                 <div className="plus"> Plus d'informations !</div>
               </NavLink>
@@ -48,7 +47,7 @@ const Slideshow = () => {
 
         </div>
         <div className="each-slide">
-          <div style={{ 'backgroundImage': `url(${img3})` }}>
+          <div className="slide" style={{ 'backgroundImage': `url(${img3})` }}>
             <div className="projSlide">
               <NavLink to="/project-4" >
                 <div className="button-project" >
@@ -61,7 +60,7 @@ const Slideshow = () => {
          
         </div>
         <div className="each-slide">
-          <div style={{ 'backgroundImage': `url(${img4})` }}>
+          <div  className="slide" style={{ 'backgroundImage': `url(${img4})` }}>
             <div className="projSlide">
               <NavLink to="/project-3" >
                 <div className="button-project" >
