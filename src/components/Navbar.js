@@ -2,8 +2,9 @@ import React from 'react';
 // import { useEffect } from 'react';
 // import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import gitHub from "../assets/github.png"
-import mail from "../assets/mail.png"
+import gitHub from "../assets/github.png";
+import mail from "../assets/mail.png";
+import cercle from "../assets/cercle.png";
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import SocialNetwork from "../components/SocialNetworks";
 
@@ -20,10 +21,19 @@ const Navbar = () => {
                     <NavLink to="/" className="li-nav1"    >Clément  PORTFOLIO</NavLink>
                     <div>
                     </div>
+
+                 
                     <NavLink className="troisTraits " activeClassName="liste-nav-active-2" to="/contact" onClick={() => scroll.scrollToBottom()} >
                         <img src={mail} alt="" />
                         Contact
                     </NavLink>
+                </div>
+                <div className="cercle">
+                    <a href="./assets/img/cv.jpg" target="_blank" >
+                    
+                        <img src={cercle} alt="" />
+                     
+                    </a>
                 </div>
                 <div className="contact-reseaux">
                 <NavLink className="contactez-moi " activeClassName="liste-nav-active-2" to="/contact" onClick={() => scroll.scrollToBottom()} >
@@ -41,12 +51,7 @@ const Navbar = () => {
                         <span >Mon Github</span>
                     </div>
                 </a>
-                <div className="button">
-                    <a href="./assets/img/cv.jpg" target="_blank" >
-                        <li className="lien-cv">  mon cv
-                        </li>
-                    </a>
-                </div>
+               
 
             </div>
         </nav>

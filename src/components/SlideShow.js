@@ -54,7 +54,7 @@ const Slideshow = () => {
                 <div className="button-project" >
                   <div className="button" >Projet PHP CRUD</div>
                 </div>
-                <div className="plus"> <span className="grey">|</span> Plus d'informations !</div>
+                <div className="plus"> Plus d'informations !</div>
               </NavLink>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Slideshow = () => {
                 <div className="button-project" >
                   <div className="button" >Projet React CRUD Typescript</div>
                 </div>
-                <div className="plus"> <span className="grey">|</span> Plus d'informations !</div>
+                <div className="plus"> Plus d'informations !</div>
               </NavLink>
             </div>
           </div>

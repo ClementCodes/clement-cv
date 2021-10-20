@@ -3,14 +3,12 @@
   text-align: center;
 
   .un {
-    margin-top: -3%;
     font-family: $raleway;
     font-weight: 900;
     color: #1b433f;
     font-size: 1.5rem;
   }
   .deux {
-    margin-top: -6%;
     color: #707070;
     font-family: "Leckerli One", cursive;
     font-size: 1.5rem;
@@ -24,23 +22,19 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-
-    box-shadow: 1px 3px 3px 3px #faf4f4;
-
-    border: 3px solid rgb(237, 233, 233);
+    box-shadow: 5px 5px 5px 0px rgb(182, 170, 170);
     border-radius: 15px;
     display: flex;
     img {
-      width: 10px;
-      height: 10px;
+      width: 5%;
+      height: 5%;
     }
   }
 
   .each-slide .projSlide {
-    width: 100%;
+    width: 100vw;
     margin-top: 70%;
-    padding: 20px;
-    font-size: 20px;
+    padding: 5%;
     background: #ffffff;
     text-align: center;
   }
@@ -52,11 +46,13 @@
     justify-content: space-between;
     padding-left: 1%;
     padding-right: 1%;
-
     padding-bottom: 2%;
   }
   .button {
-    color: #010101;
+    font-family: $raleway;
+    font-weight: 900;
+    color: #1b433f;
+    font-size: 1rem;
   }
   .plus {
     margin: auto;
@@ -70,16 +66,9 @@
     margin-top: 5%;
     justify-content: center;
     border-radius: 5px;
+    font-size: 1rem;
   }
   .grey {
     color: white;
-  }
-}
-@media (min-width: 700px) {
-  * {
-    font-size: 20px;
-  }
-  .button-project {
-    margin: 0 10% 0 10%;
   }
 }
