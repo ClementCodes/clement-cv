@@ -41,22 +41,21 @@ const Navbar = () => {
 
     return (
         <Element name="scroll-container-first-element" >
-           <nav >
-            <div className="p-body">
+            <nav >
+                <div className="p-body">
                     <div className="liste1 "   >
-                    {(toggleMenu || largeur > 1400) && (
-                    <ul className="liste">
-                                <NavLink to="/" >        <li className="items">Acceuil </li> </NavLink>
-                                <button className="btn-items"  onClick={toggleNavSmallScreen}  >X</button>
-                                <NavLink to="/projetflag" >         <li className="items">Projet React (API) </li></NavLink>
-                    <NavLink to="/project-2" >        <li className="items">Projet React avec Typescript</li></NavLink>
-                    <NavLink to="/project-3" >           <li className="items">Projet PHP CRUD</li></NavLink>
-                    
+                        {(toggleMenu || largeur > 1400) && (
+                            <ul className="liste">
+                                <NavLink to="/"   onClick={toggleNavSmallScreen} >        <li className="items">Acceuil </li> </NavLink>
+                                <button className="btn-items" onClick={toggleNavSmallScreen}  >X</button>
+                                <NavLink to="/projetflag" > <li className="items">Projet React (API) </li></NavLink>
+                                <NavLink to="/project-2" >   <li className="items">Projet MERN </li></NavLink>
+                                <NavLink to="/project-3" >   <li className="items">Projet TypeScript React </li></NavLink>
+                                <NavLink to="/project-4" >  <li className="items">Projet PHP CRUD</li></NavLink>
                                 <a href="./assets/img/cv.jpg" target="_blank" >         <li className="items">CV</li></a>
-                                
-                    <NavLink to="/formulaire" >          <li className="items">Contact</li></NavLink>
-                    </ul>
-                )}
+                                <NavLink to="/formulaire" >          <li className="items">Contact</li></NavLink>
+                            </ul>
+                        )}
               
                         <NavLink to="/" className="li-nav1"    >Clément  PORTFOLIO</NavLink>
                         <div>
