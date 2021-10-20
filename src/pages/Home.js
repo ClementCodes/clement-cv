@@ -9,6 +9,7 @@ import Slideshow from '../components/SlideShow';
 import Formulaire from '../components/Formulaire';
 // import Contact from './Contact';
 import {  DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import NavDown from '../components/NavDown';
 
 
 
@@ -31,7 +32,7 @@ const Home = () => {
             <Element name="test2" className="element">
             <Formulaire/>
         </Element>
-      
+      <NavDown/>
             {/* <Contact/> */}
         </div>
 

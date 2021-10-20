@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
+import NavDown from '../components/NavDown';
 import Project from '../components/Project';
 
 export const Project2 = () => {
@@ -9,9 +10,8 @@ export const Project2 = () => {
             <div className="project">
                 <Navbar />
                 <Project projectNumber={1} />
-                <div className="absolute">
-                   
-                </div>
+             
+                <NavDown/>
             </div>
         </main>
     )
@@ -23,6 +23,7 @@ export const Project3 = () => {
             <div className="project">
                 <Navbar />
                 <Project projectNumber={2} />
+                <NavDown/>
             </div>
         </main>
     )
@@ -34,7 +35,8 @@ export const Project4 = () => {
         <main>
             <div  className="project">
                 <Navbar />
-                <Project id="der" projectNumber={3} />     
+                <Project id="der" projectNumber={3} />
+                <NavDown/>
             </div>
         </main>
     )
