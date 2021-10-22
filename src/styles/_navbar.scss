@@ -25,7 +25,6 @@ nav {
 
   // z-index: 10;
   .p-body {
-    height: 37vh;
     color: $couleur-p;
     background-image: url(../assets/fond.png);
     background-size: cover;
@@ -109,7 +108,7 @@ nav {
   }
 
   .contactez-moi {
-    margin-top: 1%;
+    margin-top: 7%;
     margin-left: 2%;
     padding: 0% 8% 0% 8%;
     display: flex;
@@ -187,10 +186,7 @@ nav {
     display: flex;
     text-align: center;
 
-    margin-top: -2%;
-
     .content1 {
-      height: 5vh;
       padding: 11% 8% 9% 8%;
       border-radius: 5px;
       background-color: #fafcfc;
@@ -202,7 +198,6 @@ nav {
       color: black;
     }
     .content2 {
-      height: 5vh;
       padding: 11% 8% 9% 8%;
       background-color: #091d17;
       border-radius: 6px;
@@ -215,6 +210,7 @@ nav {
   .contact-reseaux {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
   }
 
   @media screen and (max-width: 500px) {
