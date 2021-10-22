@@ -25,7 +25,7 @@ nav {
 
   // z-index: 10;
   .p-body {
-    height: 30vh;
+    height: 37vh;
     color: $couleur-p;
     background-image: url(../assets/fond.png);
     background-size: cover;
@@ -38,12 +38,12 @@ nav {
       display: block;
       height: 10vw;
       margin-right: 35%;
-      margin-left: 41%;
+      margin-left: 31%;
       margin-top: -7%;
       width: 30vw;
 
       img {
-        width: 130%;
+        height: 18vh;
       }
     }
     .bienvenue {
@@ -68,7 +68,7 @@ nav {
     }
     .liste1 {
       background: #39c394;
-      height: 4vh;
+      height: 6vh;
       display: flex;
       list-style-type: none;
       color: rgb(247, 243, 243);
@@ -79,16 +79,17 @@ nav {
 
       .troisTraits {
         display: flex;
-        height: 90%;
+        height: 5vh;
         width: 22vw;
         border-radius: 5px;
         background-color: $li-nav;
-        color: rgb(250, 250, 250);
+
         align-items: center;
         justify-content: space-around;
         margin-right: 1.5%;
+
         img {
-          height: 80%;
+          height: 90%;
           width: 40%;
         }
       }
@@ -97,7 +98,7 @@ nav {
         z-index: 3;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 0.9rem;
+        font-size: 1rem;
         background-color: $li-nav;
         border-radius: 5px;
         color: rgb(232, 226, 226);
@@ -110,12 +111,12 @@ nav {
   }
 
   .contactez-moi {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 2%;
-    padding: 1% 8% 1% 8%;
+    padding: 0% 8% 0% 8%;
     display: flex;
-    height: 2.5vh;
-    width: 25vw;
+    height: 5vh;
+    width: 28vw;
     border-radius: 5px;
     background-color: white;
     color: #39c394;
@@ -163,8 +164,8 @@ nav {
   .github {
     font-size: 1rem;
     display: flex;
-    height: 6vw;
-    width: 36vw;
+    height: 5vh;
+    width: 46vw;
     justify-content: space-between;
     align-items: center;
     margin: 8%;
@@ -179,18 +180,19 @@ nav {
 
     img {
       height: 80%;
-
       background-color: white;
       border-radius: 10px;
     }
   }
   .social-network {
+    width: 29vw;
     display: flex;
     text-align: center;
-    margin-right: 9%;
+    margin-right: 7%;
     margin-top: -2%;
 
     .content1 {
+      height: 5vh;
       padding: 14% 10% 10% 14%;
       border-radius: 5px;
       background-color: #fafcfc;
@@ -202,6 +204,7 @@ nav {
       color: black;
     }
     .content2 {
+      height: 5vh;
       padding: 14% 10% 10% 14%;
       background-color: #091d17;
       border-radius: 6px;

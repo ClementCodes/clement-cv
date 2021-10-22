@@ -57,7 +57,7 @@ const Navbar = () => {
                             </ul>
                         )}
               
-                        <NavLink to="/" className="li-nav1"    >Clément  PORTFOLIO</NavLink>
+                        <NavLink to="/" className="li-nav1"    >PORTFOLIO</NavLink>
                         <div>
                         </div>
                         <button className="troisTraits" onClick={toggleNavSmallScreen}  ><img src={btn} alt="" /></button>
