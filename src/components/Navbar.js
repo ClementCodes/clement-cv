@@ -44,7 +44,7 @@ const Navbar = () => {
             <nav >
                 <div className="p-body">
                     <div className="liste1 "   >
-                        {(toggleMenu || largeur > 1400) && (
+                        {(toggleMenu || largeur > 7400) && (
                             <ul className="liste">
                                 <NavLink to="/"   onClick={toggleNavSmallScreen} >        <li className="items">Acceuil </li> </NavLink>
                                 <button className="btn-items" onClick={toggleNavSmallScreen}  >X</button>

@@ -22,17 +22,17 @@ const Home = () => {
 
             <div>
             
-                <Navbar />        
-                <br />            
+                <Navbar />
+                <br />
             </div>
             <div className="containerSlide">
                 <Slideshow />
               
             </div>
        
-            <Formulaire/>
+            <Formulaire />
       
-      <NavDown/>
+            <NavDown />
             {/* <Contact/> */}
         </div>
 
