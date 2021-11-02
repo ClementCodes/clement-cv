@@ -1,4 +1,70 @@
 nav {
+  .anime {
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: #fff;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .flip {
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .flip {
+    color: lawngreen;
+  }
+  .flip > div > div {
+    padding: 4px 12px;
+    height: 50px;
+    margin-bottom: 45px;
+    display: inline-block;
+  }
+  .flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+
+  .flip div div {
+    background: #42c58a;
+  }
+  .flip div:first-child div {
+    background: #4ec7f3;
+  }
+  .flip div:last-child div {
+    background: #dc143c;
+  }
+
+  @keyframes show {
+    0% {
+      margin-top: -270px;
+    }
+    5% {
+      margin-top: -180px;
+    }
+    33% {
+      margin-top: -180px;
+    }
+    38% {
+      margin-top: -90px;
+    }
+    66% {
+      margin-top: -90px;
+    }
+    71% {
+      margin-top: 0px;
+    }
+    99.99% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: -270px;
+    }
+  }
   height: 400px;
   width: 100%;
 
@@ -6,7 +72,6 @@ nav {
   flex-direction: column;
 
   ul .liste {
-    display: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,8 +218,7 @@ nav {
   }
 
   .liste {
-    height: 80px;
-    display: none;
+    height: 15vh;
     list-style-type: none;
     color: rgb(218, 223, 213);
     border-radius: 10px;
@@ -298,17 +362,24 @@ nav {
     }
   }
 }
+
 @media screen and (min-width: 450px) {
   nav .p-body .cercle img {
     height: 150px;
   }
 }
-@media screen and (min-width: 600px) {
-  nav .p-body .liste1 .troisTraits img {
+@media screen and (min-width: 500px) {
+  nav .liste {
     display: none;
   }
+  nav .p-body .liste1 .troisTraits {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
   nav .p-body .cercle img {
     height: 180px;
+    margin-top: 5%;
   }
 
   nav .p-body .bienvenue p {
@@ -319,12 +390,6 @@ nav {
   }
   .slideShow {
     margin-top: 15%;
-  }
-}
-@media screen and (min-width: 600px) {
-  nav .p-body .cercle img {
-    height: 180px;
-    margin-top: 5%;
   }
 }
 

@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import gitHub from "../assets/github.png";
 import mail from "../assets/mail.png";
 import cercle from "../assets/cercle.png";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, animateScroll as scroll, } from 'react-scroll'
 import SocialNetwork from "../components/SocialNetworks";
 import btn from "../assets/menu.png"
 import { useState, useEffect } from 'react';
@@ -77,6 +77,8 @@ const Navbar = () => {
                     </div>
                     <div className="bienvenue">
                         <span>         Bienvenue sur mon portfolio,   </span>   <p> Il est entièrement réalisé from scratch avec la librairie React, pour le style j’utilise le préprocesseur Sass avec flexbox</p>
+
+                    
                     </div>
                     <a className="gitHub" href="https://github.com/ClementCodes">
                         <div className="github " >
