@@ -154,7 +154,7 @@ nav {
 
   .liste {
     height: 80px;
-    display: flex;
+    display: none;
     list-style-type: none;
     color: rgb(218, 223, 213);
     border-radius: 10px;
@@ -264,7 +264,7 @@ nav {
     .btn-items {
       background-color: #41a78a;
       position: absolute;
-      color: white;
+      color: #41a78a;
       font-size: 2rem;
       margin-top: 8%;
       margin-left: 55%;
@@ -304,6 +304,9 @@ nav {
   }
 }
 @media screen and (min-width: 600px) {
+  nav .p-body .liste1 .troisTraits img {
+    display: none;
+  }
   nav .p-body .cercle img {
     height: 180px;
   }
