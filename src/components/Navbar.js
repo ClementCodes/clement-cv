@@ -9,6 +9,7 @@ import { Link, Element, animateScroll as scroll, } from 'react-scroll'
 import SocialNetwork from "../components/SocialNetworks";
 import btn from "../assets/menu.png"
 import { useState, useEffect } from 'react';
+import Neumorphism from './Card-neumorphism';
 
 
 const Navbar = () => {
@@ -44,6 +45,7 @@ const Navbar = () => {
             <nav >
                 <div className="p-body">
                     <div className="liste1 "   >
+                   
                         {(toggleMenu || largeur > 7400) && (
                             <ul className="liste">
                                 <NavLink to="/"   onClick={toggleNavSmallScreen} >        <li className="items">Acceuil </li> </NavLink>
@@ -56,7 +58,7 @@ const Navbar = () => {
                                 <NavLink to="/formulaire" >          <li className="items">Contact</li></NavLink>
                             </ul>
                         )}
-              
+             
                         <NavLink to="/" className="li-nav1"    >PORTFOLIO</NavLink>
                         <div>
                         </div>

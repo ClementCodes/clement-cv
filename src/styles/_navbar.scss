@@ -1,7 +1,6 @@
 nav {
   height: 400px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
 
@@ -27,7 +26,8 @@ nav {
   .p-body {
     height: 400px;
     color: $couleur-p;
-    background-image: url(../assets/fond.png);
+    // background-image: url(../assets/fond.png);
+    background-color: #232427;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,12 +36,13 @@ nav {
 
     .cercle {
       position: absolute;
-      margin-right: 35%;
-      margin-left: 31%;
+      margin-left: 38%;
       margin-top: -7%;
 
       img {
-        height: 120px;
+        height: 140px;
+
+        border-radius: 15px;
       }
     }
     .bienvenue {
@@ -50,10 +51,8 @@ nav {
         margin-left: 4%;
         font-family: $raleway;
         font-weight: 900;
-        color: #1b433f;
+        color: #39c394;
         font-size: 1.2rem;
-
-        color: rgb(43, 42, 42);
       }
       p {
         margin-top: 10%;
@@ -65,24 +64,30 @@ nav {
       }
     }
     .liste1 {
-      background: #030806;
+      background-color: #232427;
       height: 50px;
       display: flex;
       list-style-type: none;
       color: #56c49d;
       align-items: center;
       justify-content: space-between;
+      border: solid 1px #39c394;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      margin-bottom: 1%;
 
       .troisTraits {
+        margin-right: 2%;
         display: flex;
         height: 40px;
-        width: 120px;
-        border-radius: 5px;
+        width: 60px;
+        border-radius: 45px;
         background: #030806;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         cursor: pointer;
-        border: #56c49d solid 1px;
+        border: #56c49d solid 5px;
 
         img {
           height: 40px;
@@ -102,10 +107,10 @@ nav {
         border-radius: 5px;
         box-shadow: 15px 15px 27px #020403, -15px -15px 27px #040c09;
       }
-      li-nav1:hover {
-        border-radius: 7px;
-        background: #56c49d;
-        box-shadow: inset 11px 11px 12px #52ba95, inset -11px -11px 12px #5acea5;
+      .li-nav1:hover {
+        border-radius: 6px;
+        background: #232427;
+        box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
       }
       .liste-nav-active-2 {
         color: black;
@@ -126,9 +131,10 @@ nav {
     justify-content: space-around;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
-    border: 1px grey;
-    box-shadow: 10px 10px 20px #c6c4c4, -10px -10px 20px #ffffff;
+    border-radius: 15px;
+    border-bottom: solid 0.3px grey;
+
+    box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
 
     img {
       height: 40px;
@@ -140,9 +146,9 @@ nav {
     }
   }
   .contactez-moi:hover {
-    border-radius: 7px;
-    background: #fafafa;
-    box-shadow: inset 7px 7px 16px #ebebeb, inset -7px -7px 16px #ffffff;
+    border-radius: 6px;
+    background: #232427;
+    box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
   }
 
   .liste {
@@ -181,12 +187,11 @@ nav {
     margin: 8%;
     font-family: $raleway;
     margin-left: 17%;
-    color: white;
+    color: #39c394;
     cursor: pointer;
-    border-radius: 7px;
-    border-radius: 5px;
-    border: 1px grey;
-    box-shadow: 10px 10px 20px #c6c4c4, -10px -10px 20px #fbe7e7;
+    border-radius: 15px;
+    border-bottom: solid 0.3px grey;
+    box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
 
     img {
       margin-left: 4%;
@@ -197,50 +202,57 @@ nav {
   }
 
   .github:hover {
-    border-radius: 7px;
-    background: #ffffff;
-    box-shadow: inset 11px 11px 12px #f2f2f2, inset -11px -11px 12px #ffffff;
-    color: #39c394;
+    border-radius: 6px;
+    background: #232427;
+    box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
   }
+
   .social-network {
     display: flex;
     text-align: center;
     height: 50px;
+    border-bottom: solid 0.3px grey;
 
     .content1 {
-      padding: 11% 8% 9% 8%;
-      height: 50px;
-      width: 50px;
+      padding: 8px 8px 8px 8px;
+      height: 53px;
+      width: 53px;
       border-radius: 5px;
       margin-right: 30px;
-      border-radius: 7px;
-      border-radius: 5px;
-      border: 1px grey;
-      box-shadow: 10px 10px 20px #c6c4c4, -10px -10px 20px #ffffff;
+      border-radius: 48px;
+      background: #232427;
+      border-bottom: solid 0.3px grey;
+      box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
       z-index: 2;
     }
     .content1:hover {
-      border-radius: 7px;
-      background: #fafafa;
-      box-shadow: inset 7px 7px 16px #ebebeb, inset -7px -7px 16px #ffffff;
+      border-radius: 50px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
     }
     .fab {
-      color: black;
+      font-size: 35px;
+      color: blue;
+      border-radius: 16px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
     }
     .content2 {
-      padding: 11% 8% 9% 8%;
-      height: 50px;
-      width: 50px;
-      border-radius: 5px;
+      padding: 8px 8px 8px 8px;
+      height: 53px;
+      width: 53px;
+      margin-right: 10%;
       background: black;
-      border-radius: 7px;
-      margin-right: 30px;
-      box-shadow: 7px 7px 16px #dadada, -7px -7px 16px #e1e0e0;
+      border-radius: 48px;
+      background: #232427;
+
+      border-bottom: solid 0.3px grey;
+      box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
     }
     .content2:hover {
-      border-radius: 7px;
-      background: black;
-      box-shadow: inset 7px 7px 16px #ebebeb, inset -7px -7px 16px #ffffff;
+      border-radius: 50px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
     }
     .color-lin {
       color: #41a78a;
@@ -251,6 +263,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6%;
+    margin-right: 1%;
   }
 
   @media screen and (max-width: 500px) {
@@ -325,24 +338,15 @@ nav {
 @media screen and (min-width: 800px) {
   nav .p-body .cercle img {
     height: 220px;
-    margin-top: 10%;
   }
   .slideShow {
     margin-top: 18%;
   }
 }
 
-@media screen and (min-width: 800px) {
-  nav .p-body .cercle img {
-    margin-top: 15%;
-  }
-}
 @media screen and (min-width: 1100px) {
   nav .p-body {
     height: 630px;
-  }
-  nav .p-body .cercle img {
-    margin-top: 25%;
   }
 }
 
@@ -351,13 +355,14 @@ nav {
     height: 730px;
     margin-bottom: 10%;
   }
-  nav .p-body .cercle img {
-    margin-left: 50%;
-    margin-top: 45%;
-  }
 
   .slideShow {
     margin-top: 30%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  nav .p-body .cercle img {
+    margin-top: 12%;
   }
 }
 
@@ -365,9 +370,5 @@ nav {
   body {
     margin-left: 10%;
     margin-right: 10%;
-  }
-  nav .p-body .cercle img {
-    height: 230px;
-    padding-top: 40%;
   }
 }
