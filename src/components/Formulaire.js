@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 const Formulaire = () => {
     const [name, setName] = useState("");
+
     const [company, setCompany] = useState("");
+    
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -13,7 +15,7 @@ const Formulaire = () => {
         let regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
 
 
-        //pour valide rune regex  on valide avec match qui retourne un booleen en reponse donc
+        //pour valide une regex  on valide avec match qui retourne un booleen en reponse donc
 
         if (email.match(regex)) {
 
@@ -80,7 +82,7 @@ const Formulaire = () => {
             });
 
         } else {
-            failMessage("Merci de remplir correctement les champs et  non pas avec des salades mais avec des etoiles * ");
+            failMessage("Merci de remplir correctement les champs   non pas avec des salades mais avec des etoiles * ");
         }
     };
 
@@ -105,8 +107,9 @@ const Formulaire = () => {
     };
 
     return (
+        
         <form className="contact-form">
-            <h2>Contactez-nous</h2>
+            <h2>Contactez-moi</h2>
             <div className="form-content">
                 <input
                     type="text"

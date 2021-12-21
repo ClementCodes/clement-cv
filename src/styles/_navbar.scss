@@ -1,0 +1,374 @@
+nav {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  ul .liste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+  }
+  .items {
+    height: 100%;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn {
+    display: none;
+    font-size: 0.9rem;
+  }
+
+  // z-index: 10;
+  .p-body {
+    height: 400px;
+    color: $couleur-p;
+    // background-image: url(../assets/fond.png);
+    background-color: #232427;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+
+    .cercle {
+      position: absolute;
+      margin-left: 38%;
+      margin-top: -7%;
+
+      img {
+        height: 140px;
+
+        border-radius: 15px;
+      }
+    }
+    .bienvenue {
+      width: 80%;
+      span {
+        margin-left: 4%;
+        font-family: $raleway;
+        font-weight: 900;
+        color: #39c394;
+        font-size: 1.2rem;
+      }
+      p {
+        margin-top: 10%;
+        margin-left: 22%;
+        color: #707070;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 0.6rem;
+        font-weight: 600 !important;
+      }
+    }
+    .liste1 {
+      background-color: #232427;
+      height: 50px;
+      display: flex;
+      list-style-type: none;
+      color: #56c49d;
+      align-items: center;
+      justify-content: space-between;
+      border: solid 1px #39c394;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      margin-bottom: 1%;
+
+      .troisTraits {
+        margin-right: 2%;
+        display: flex;
+        height: 40px;
+        width: 60px;
+        border-radius: 45px;
+        background: #030806;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: #56c49d solid 5px;
+
+        img {
+          height: 40px;
+          width: 45px;
+          border: #56c49d solid 1px;
+        }
+      }
+      .li-nav1 {
+        margin-left: 2%;
+        position: absolute;
+        z-index: 3;
+        padding: 10px 10px 10px 10px;
+        font-size: 1rem;
+        color: #39c394;
+        cursor: pointer;
+        border: solid 1px hsl(159, 46%, 22%);
+        border-radius: 5px;
+        box-shadow: 15px 15px 27px #020403, -15px -15px 27px #040c09;
+      }
+      .li-nav1:hover {
+        border-radius: 6px;
+        background: #232427;
+        box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+      }
+      .liste-nav-active-2 {
+        color: black;
+        background-color: white;
+      }
+    }
+  }
+
+  .contactez-moi {
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 0% 8% 0% 8%;
+    display: flex;
+    height: 50px;
+    width: 120px;
+    color: #39c394;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+    border-bottom: solid 0.3px grey;
+
+    box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
+
+    img {
+      height: 40px;
+      margin-right: 30%;
+      border-radius: 10px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 8%;
+    }
+  }
+  .contactez-moi:hover {
+    border-radius: 6px;
+    background: #232427;
+    box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+  }
+
+  .liste {
+    height: 15vh;
+    list-style-type: none;
+    color: rgb(218, 223, 213);
+    border-radius: 10px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    .li-nav {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 13px;
+      background-color: $li-nav;
+      color: rgb(232, 226, 226);
+    }
+    .liste-nav-active {
+      color: rgb(118, 111, 111);
+      background-color: #39c394;
+    }
+  }
+
+  .github {
+    font-size: 1rem;
+    display: flex;
+    height: 50px;
+    width: 170px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+    font-family: $raleway;
+    margin-left: 17%;
+    color: #39c394;
+    cursor: pointer;
+    border-radius: 15px;
+    border-bottom: solid 0.3px grey;
+    box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
+
+    img {
+      margin-left: 4%;
+      height: 80%;
+      background-color: white;
+      border-radius: 10px;
+    }
+  }
+
+  .github:hover {
+    border-radius: 6px;
+    background: #232427;
+    box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+  }
+
+  .social-network {
+    display: flex;
+    text-align: center;
+    height: 50px;
+    border-bottom: solid 0.3px grey;
+
+    .content1 {
+      padding: 8px 8px 8px 8px;
+      height: 53px;
+      width: 53px;
+      border-radius: 5px;
+      margin-right: 30px;
+      border-radius: 48px;
+      background: #232427;
+      border-bottom: solid 0.3px grey;
+      box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
+      z-index: 2;
+    }
+    .content1:hover {
+      border-radius: 50px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+    }
+    .fab {
+      font-size: 35px;
+      color: blue;
+      border-radius: 16px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+    }
+    .content2 {
+      padding: 8px 8px 8px 8px;
+      height: 53px;
+      width: 53px;
+      margin-right: 10%;
+      background: black;
+      border-radius: 48px;
+      background: #232427;
+
+      border-bottom: solid 0.3px grey;
+      box-shadow: 8px 8px 16px #0e0e10, -8px -8px 16px #383a3e;
+    }
+    .content2:hover {
+      border-radius: 50px;
+      background: #232427;
+      box-shadow: inset 8px 8px 16px #0e0e10, inset -8px -8px 16px #383a3e;
+    }
+    .color-lin {
+      color: #41a78a;
+    }
+  }
+  .contact-reseaux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6%;
+    margin-right: 1%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .btn-items {
+      background-color: #41a78a;
+      position: absolute;
+      color: #41a78a;
+      font-size: 2rem;
+      margin-top: 8%;
+      margin-left: 55%;
+      border-radius: 10px;
+    }
+    .liste {
+      z-index: 10;
+      flex-direction: column;
+    }
+    .items:nth-child(1) {
+      border-top: 1px solid whitesmoke;
+    }
+    .items {
+      font-family: "Montserrat Alternates", sans-serif;
+      backdrop-filter: blur(40px);
+      color: black;
+      text-align: center;
+      width: 100vw;
+      border-bottom: 1px solid #ffd;
+      line-height: 15vh;
+      font-size: 1.5rem;
+    }
+    .btn {
+      z-index: 12;
+      display: block;
+      position: absolute;
+      right: 10px;
+      font-size: 0.9rem;
+      color: rgb(162, 161, 161);
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  nav .p-body .cercle img {
+    height: 150px;
+  }
+}
+@media screen and (min-width: 500px) {
+  nav .liste {
+    display: none;
+  }
+  nav .p-body .liste1 .troisTraits {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  nav .p-body .cercle img {
+    height: 180px;
+    margin-top: 5%;
+  }
+
+  nav .p-body .bienvenue p {
+    font-size: 1.3rem;
+  }
+  nav .p-body {
+    height: 570px;
+  }
+  .slideShow {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  nav .p-body .cercle img {
+    height: 220px;
+  }
+  .slideShow {
+    margin-top: 18%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  nav .p-body {
+    height: 630px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav .p-body {
+    height: 730px;
+    margin-bottom: 10%;
+  }
+
+  .slideShow {
+    margin-top: 30%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  nav .p-body .cercle img {
+    margin-top: 12%;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

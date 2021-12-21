@@ -6,43 +6,38 @@ const Navigation = () => {
 
     <div className="navigation">
       <ul>
-
-        <NavLink to="/" exact activeClassName="nav-active" className="hover">
-          <li>accueil</li>
-        </NavLink>
-
+        {/* <NavLink to="/" exact >
+          <li className="nav-link">Accueil</li>
+        </NavLink> */}
 
 
-        <li className="nav-portfolio"> Portfolio
+
+        {/* <NavLink to="/contact" >
+          <li className="nav-link">Contact</li>
+        </NavLink> */}
+
+
+        <li className="nav-portfolio"> Projet
           <ul className="nav-projects">
 
-            <NavLink to="/projetFlag" activeClassName="nav-active1"
-              className="hover">
-              <li>projet Flag</li>
-            </NavLink>
+            {/* <NavLink to="/projetFlag" >
+              <li className="nav-link" >Projet Flag</li>
+            </NavLink> */}
 
-            <NavLink to="/project-2" activeClassName="nav-active1"
-              className="hover">
-              <li>projet 2</li>
-            </NavLink>
+            {/* <NavLink to="/project-2" >
+              <li className="nav-link">Projet Mern</li>
+            </NavLink> */}
 
 
-            <NavLink to="/project-3" activeClassName="nav-active1"
-              className="hover">
-              <li>projet 3</li>
-            </NavLink>
+            {/* <NavLink to="/project-3" >
+              <li className="nav-link">Projet 3</li>
+            </NavLink> */}
 
-            <NavLink to="/project-4" activeClassName="nav-active1"
-              className="hover">
-              <li>projet 4</li>
+            <NavLink to="/project-4" >
+              <li className="nav-link">Projet MyCave</li>
             </NavLink>
           </ul>
         </li>
-
-
-        <NavLink to="/contact" activeClassName="nav-active" className="hover">
-          <li>Contact</li>
-        </NavLink>
       </ul>
     </div>
   );
