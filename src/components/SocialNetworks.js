@@ -36,7 +36,11 @@ const SocialNetwork = () => {
             <ul className="content2">
                 <a href="https://www.linkedin.com/in/clement-dominique" target="blank" rel="noopener noreferrer" className="hover" onMouseOver={anim}>
                     <li>
+<<<<<<< HEAD
                         <i className="fab fa-linkedin-in color-lin hello"></i>
+=======
+                        <i className="fab fa-linkedin-in color-lin"></i>
+>>>>>>> origin/master
                     </li>
                 </a>
             </ul>
