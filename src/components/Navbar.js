@@ -1,6 +1,4 @@
 import React from 'react';
-// import { useEffect } from 'react';
-// import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import gitHub from "../assets/github.png";
 import mail from "../assets/mail.png";
@@ -9,7 +7,7 @@ import { Link, Element, animateScroll as scroll, } from 'react-scroll'
 import SocialNetwork from "../components/SocialNetworks";
 import btn from "../assets/menu.png"
 import { useState, useEffect } from 'react';
-import Neumorphism from './Card-neumorphism';
+
 
 
 const Navbar = () => {
@@ -101,35 +99,3 @@ const Navbar = () => {
 
 
 export default Navbar;
-
-// <Element name="scroll-container-first-element" >
-// <div className="liste" >
-
-
-//     <NavLink to="/" className=" li-nav " activeClassName="liste-nav-active" exact onClick={() => scroll.scrollToBottom()} >
-
-//        Acceuil 
-//     </NavLink>
-  
-//     <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/projetflag" onClick={() => scroll.scrollToBottom()} >
- 
-//     Projet React 
-
-        
-//     </NavLink>
-//     <NavLink className=" li-nav " activeClassName="liste-nav-active" to="/project-2" onClick={() => scroll.scrollToBottom()} >
-        
-//      Porjet MERN
-//     </NavLink>
-//     <NavLink className=" li-nav "  activeClassName="liste-nav-active" to="/project-3" onClick={() => scroll.scrollToBottom()}>
-//        TypeScript 
-//     </NavLink>
-//     <NavLink className=" li-nav "  activeClassName="liste-nav-active"to="/project-4"onClick={() => scroll.scrollToBottom()} >
-//        Projet PHP 
-//     </NavLink>
-//    <NavLink to="/contact" >
-//         <li className="li-nav">Contact</li>
-//     </NavLink> 
-
-//      </div>
-//  </Element> 

@@ -92,5 +92,5 @@ const Pays = () => {
 
 };
 
-// country est une props     exemple du dessus    <Card country={country} key={country.name} />
+
 export default Pays;
