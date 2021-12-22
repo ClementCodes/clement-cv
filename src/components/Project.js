@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-
 import { projectsData } from '../data/projectsData';
 import { motion } from 'framer-motion';
-
-
 
 const Project = (props) => {
     let left = Math.floor(Math.random() * 200 + 700) + "px";
@@ -75,16 +72,13 @@ const Project = (props) => {
         initial="initial"
         animate="visible"
         variants={imgAnim}
-        transition={{duration: 2.2}}
-      >
+        transition={{duration: 2.2}} >
                 <div className="img-container hover">
                     <span>
                         <h3>{project.title}</h3>
                         <p>{project.infos}</p>
                     </span>
                     <img src={project.img} alt={project.title} className="img" />
-                   
-
                 </div>
                 <div className="button-container">
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover">

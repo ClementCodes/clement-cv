@@ -6,7 +6,8 @@ import Card from "./Card";
 const Pays = () => {
     // pour le use state : la premeire valeur =la valeur du state
     //seconde valeur = foction qui peut mettre a jour le state et qui peut etre initialiser a zero
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([])
+
     // le use effect est un hook qui permet de la performance et qui permet de contenir
     //le tout dans un useeffect avec les crochet[] a la  fin qui signifie qui dit que tu joues 
     //tout le temps que si il y a des changements dans le call back crochet
@@ -53,9 +54,7 @@ const Pays = () => {
         <div>
             <div className="pays">
                 <div className="sort-countainer">
-
-                    <input  type="range" min="1" max="250" value={rangeValue} onChange={(e) => setRangeValue(e.target.value)} />
-
+                    <input type="range" min="1" max="250" value={rangeValue} onChange={(e) => setRangeValue(e.target.value)} />
                     <ul>
                         {radios.map((radio) => {
                             return (
@@ -82,13 +81,10 @@ const Pays = () => {
 
                             <Card country={country} key={country.name} />
                         ))}
-
-
-
                 </ul>
             </div>
         </div>
-    );
+    )
 
 };
 
