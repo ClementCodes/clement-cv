@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/clement-cv/static/css/main.c4538ffe.chunk.css",
-    "main.js": "/clement-cv/static/js/main.75ead54d.chunk.js",
-    "main.js.map": "/clement-cv/static/js/main.75ead54d.chunk.js.map",
+    "main.css": "/clement-cv/static/css/main.fa661cbb.chunk.css",
+    "main.js": "/clement-cv/static/js/main.1468eb62.chunk.js",
+    "main.js.map": "/clement-cv/static/js/main.1468eb62.chunk.js.map",
     "runtime-main.js": "/clement-cv/static/js/runtime-main.b7ad6591.js",
     "runtime-main.js.map": "/clement-cv/static/js/runtime-main.b7ad6591.js.map",
     "static/css/2.0ccb862f.chunk.css": "/clement-cv/static/css/2.0ccb862f.chunk.css",
-    "static/js/2.6c8a10b0.chunk.js": "/clement-cv/static/js/2.6c8a10b0.chunk.js",
-    "static/js/2.6c8a10b0.chunk.js.map": "/clement-cv/static/js/2.6c8a10b0.chunk.js.map",
+    "static/js/2.e5b846be.chunk.js": "/clement-cv/static/js/2.e5b846be.chunk.js",
+    "static/js/2.e5b846be.chunk.js.map": "/clement-cv/static/js/2.e5b846be.chunk.js.map",
     "index.html": "/clement-cv/index.html",
     "static/css/2.0ccb862f.chunk.css.map": "/clement-cv/static/css/2.0ccb862f.chunk.css.map",
-    "static/css/main.c4538ffe.chunk.css.map": "/clement-cv/static/css/main.c4538ffe.chunk.css.map",
-    "static/js/2.6c8a10b0.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.6c8a10b0.chunk.js.LICENSE.txt",
+    "static/css/main.fa661cbb.chunk.css.map": "/clement-cv/static/css/main.fa661cbb.chunk.css.map",
+    "static/js/2.e5b846be.chunk.js.LICENSE.txt": "/clement-cv/static/js/2.e5b846be.chunk.js.LICENSE.txt",
     "static/media/cercle.930d38c5.png": "/clement-cv/static/media/cercle.930d38c5.png",
     "static/media/country.1acfdcfa.png": "/clement-cv/static/media/country.1acfdcfa.png",
     "static/media/github.ca70341b.png": "/clement-cv/static/media/github.ca70341b.png",
     "static/media/my_cave.06a6ca4b.png": "/clement-cv/static/media/my_cave.06a6ca4b.png",
     "static/media/pokemon.4ba7387a.png": "/clement-cv/static/media/pokemon.4ba7387a.png",
     "static/media/index.scss": "/clement-cv/static/media/rayon.0caf890a.svg",
-    "static/media/tree.011a5fe5.png": "/clement-cv/static/media/tree.011a5fe5.png",
-    "static/media/ts-react.a3a26c92.png": "/clement-cv/static/media/ts-react.a3a26c92.png"
+    "static/media/tree.011a5fe5.png": "/clement-cv/static/media/tree.011a5fe5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b7ad6591.js",
     "static/css/2.0ccb862f.chunk.css",
-    "static/js/2.6c8a10b0.chunk.js",
-    "static/css/main.c4538ffe.chunk.css",
-    "static/js/main.75ead54d.chunk.js"
+    "static/js/2.e5b846be.chunk.js",
+    "static/css/main.fa661cbb.chunk.css",
+    "static/js/main.1468eb62.chunk.js"
   ]
 }
